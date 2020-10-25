@@ -1,0 +1,461 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x13_Female J2
+U 1 1 5F8A8C05
+P 3750 1750
+F 0 "J2" H 3778 1776 50  0000 L CNN
+F 1 "Capacitive Keyboard" H 3778 1685 50  0000 L CNN
+F 2 "bc:keyboard" H 3750 1750 50  0001 C CNN
+F 3 "~" H 3750 1750 50  0001 C CNN
+	1    3750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D1
+U 1 1 5F8AAA81
+P 1800 1250
+F 0 "D1" H 1950 1200 50  0000 C CNN
+F 1 "LED_C1" H 1650 1200 50  0000 R CNN
+F 2 "bc:side_led" V 1800 1250 50  0001 C CNN
+F 3 "~" V 1800 1250 50  0001 C CNN
+	1    1800 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x33_Male J1
+U 1 1 5F8B1FAD
+P 950 2550
+F 0 "J1" H 1050 4400 50  0000 C CNN
+F 1 "Pin_Header_01x33_Male" H 1100 4300 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x33_P2.54mm_Vertical_SMD_Pin1Left" H 950 2550 50  0001 C CNN
+F 3 "~" H 950 2550 50  0001 C CNN
+	1    950  2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D2
+U 1 1 5F8AB7B2
+P 1800 1450
+F 0 "D2" H 1950 1400 50  0000 C CNN
+F 1 "LED_C#1" H 1650 1400 50  0000 R CNN
+F 2 "bc:side_led" V 1800 1450 50  0001 C CNN
+F 3 "~" V 1800 1450 50  0001 C CNN
+	1    1800 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small D3
+U 1 1 5F8C1A4C
+P 1800 1650
+F 0 "D3" H 1950 1600 50  0000 C CNN
+F 1 "LED_D1" H 1650 1600 50  0000 R CNN
+F 2 "bc:side_led" V 1800 1650 50  0001 C CNN
+F 3 "~" V 1800 1650 50  0001 C CNN
+	1    1800 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small D4
+U 1 1 5F8C1A52
+P 1800 1850
+F 0 "D4" H 1950 1800 50  0000 C CNN
+F 1 "LED_D#1" H 1650 1800 50  0000 R CNN
+F 2 "bc:side_led" V 1800 1850 50  0001 C CNN
+F 3 "~" V 1800 1850 50  0001 C CNN
+	1    1800 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small D5
+U 1 1 5F8C42E6
+P 1800 2050
+F 0 "D5" H 1950 2000 50  0000 C CNN
+F 1 "LED_E1" H 1650 2000 50  0000 R CNN
+F 2 "bc:side_led" V 1800 2050 50  0001 C CNN
+F 3 "~" V 1800 2050 50  0001 C CNN
+	1    1800 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small D6
+U 1 1 5F8C42EC
+P 1800 2250
+F 0 "D6" H 1950 2200 50  0000 C CNN
+F 1 "LED_F1" H 1650 2200 50  0000 R CNN
+F 2 "bc:side_led" V 1800 2250 50  0001 C CNN
+F 3 "~" V 1800 2250 50  0001 C CNN
+	1    1800 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small D7
+U 1 1 5F8C42F2
+P 1800 2450
+F 0 "D7" H 1950 2400 50  0000 C CNN
+F 1 "LED_F#1" H 1650 2400 50  0000 R CNN
+F 2 "bc:side_led" V 1800 2450 50  0001 C CNN
+F 3 "~" V 1800 2450 50  0001 C CNN
+	1    1800 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small D8
+U 1 1 5F8C42F8
+P 1800 2650
+F 0 "D8" H 1950 2600 50  0000 C CNN
+F 1 "LED_G1" H 1650 2600 50  0000 R CNN
+F 2 "bc:side_led" V 1800 2650 50  0001 C CNN
+F 3 "~" V 1800 2650 50  0001 C CNN
+	1    1800 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small D9
+U 1 1 5F8C5618
+P 1800 2850
+F 0 "D9" H 1950 2800 50  0000 C CNN
+F 1 "LED_G#1" H 1650 2800 50  0000 R CNN
+F 2 "bc:side_led" V 1800 2850 50  0001 C CNN
+F 3 "~" V 1800 2850 50  0001 C CNN
+	1    1800 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small D10
+U 1 1 5F8C561E
+P 1800 3050
+F 0 "D10" H 1950 3000 50  0000 C CNN
+F 1 "LED_A1_T" H 1650 3000 50  0000 R CNN
+F 2 "bc:side_led" V 1800 3050 50  0001 C CNN
+F 3 "~" V 1800 3050 50  0001 C CNN
+	1    1800 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small D12
+U 1 1 5F8C5624
+P 1800 3350
+F 0 "D12" H 1950 3300 50  0000 C CNN
+F 1 "LED_A#1" H 1650 3300 50  0000 R CNN
+F 2 "bc:side_led" V 1800 3350 50  0001 C CNN
+F 3 "~" V 1800 3350 50  0001 C CNN
+	1    1800 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small D13
+U 1 1 5F8C562A
+P 1800 3550
+F 0 "D13" H 1950 3500 50  0000 C CNN
+F 1 "LED_B1_T" H 1650 3500 50  0000 R CNN
+F 2 "bc:side_led" V 1800 3550 50  0001 C CNN
+F 3 "~" V 1800 3550 50  0001 C CNN
+	1    1800 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small D15
+U 1 1 5F8C5C58
+P 1800 3850
+F 0 "D15" H 1950 3800 50  0000 C CNN
+F 1 "LED_C2_T" H 1650 3800 50  0000 R CNN
+F 2 "bc:side_led" V 1800 3850 50  0001 C CNN
+F 3 "~" V 1800 3850 50  0001 C CNN
+	1    1800 3850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1150 1150 3550 1150
+Wire Wire Line
+	1150 1350 2450 1350
+Wire Wire Line
+	2450 1350 2450 1250
+Wire Wire Line
+	2450 1250 3550 1250
+Wire Wire Line
+	1150 1550 2550 1550
+Wire Wire Line
+	2550 1550 2550 1350
+Wire Wire Line
+	2550 1350 3550 1350
+Wire Wire Line
+	1150 1750 2650 1750
+Wire Wire Line
+	2650 1750 2650 1450
+Wire Wire Line
+	2650 1450 3550 1450
+Wire Wire Line
+	1150 1950 2750 1950
+Wire Wire Line
+	2750 1950 2750 1550
+Wire Wire Line
+	2750 1550 3550 1550
+Wire Wire Line
+	1150 2150 2850 2150
+Wire Wire Line
+	2850 2150 2850 1650
+Wire Wire Line
+	2850 1650 3550 1650
+Wire Wire Line
+	1150 2350 2950 2350
+Wire Wire Line
+	2950 2350 2950 1750
+Wire Wire Line
+	2950 1750 3550 1750
+Wire Wire Line
+	1150 2550 3050 2550
+Wire Wire Line
+	3050 2550 3050 1850
+Wire Wire Line
+	3050 1850 3550 1850
+Wire Wire Line
+	1150 2750 3150 2750
+Wire Wire Line
+	3150 2750 3150 1950
+Wire Wire Line
+	3150 1950 3550 1950
+Wire Wire Line
+	1150 2950 3250 2950
+Wire Wire Line
+	3250 2950 3250 2050
+Wire Wire Line
+	3250 2050 3550 2050
+Wire Wire Line
+	1150 3250 3350 3250
+Wire Wire Line
+	3350 3250 3350 2150
+Wire Wire Line
+	3350 2150 3550 2150
+Wire Wire Line
+	3450 3450 3450 2250
+Wire Wire Line
+	3450 2250 3550 2250
+Wire Wire Line
+	1150 3750 3550 3750
+Wire Wire Line
+	3550 3750 3550 2350
+Wire Wire Line
+	1900 1250 1900 1450
+Wire Wire Line
+	1900 4050 1150 4050
+Connection ~ 1900 1450
+Wire Wire Line
+	1900 1450 1900 1650
+Connection ~ 1900 1650
+Wire Wire Line
+	1900 1650 1900 1850
+Connection ~ 1900 1850
+Wire Wire Line
+	1900 1850 1900 2050
+Connection ~ 1900 2050
+Wire Wire Line
+	1900 2050 1900 2250
+Connection ~ 1900 2250
+Wire Wire Line
+	1900 2250 1900 2450
+Connection ~ 1900 2450
+Wire Wire Line
+	1900 2450 1900 2650
+Connection ~ 1900 2650
+Wire Wire Line
+	1900 2650 1900 2850
+Connection ~ 1900 2850
+Wire Wire Line
+	1900 2850 1900 3050
+Wire Wire Line
+	1900 3150 1900 3350
+Wire Wire Line
+	1900 3650 1900 3850
+Wire Wire Line
+	1900 3950 1900 4050
+Wire Wire Line
+	1150 3850 1700 3850
+Wire Wire Line
+	1150 3550 1700 3550
+Wire Wire Line
+	1150 3350 1700 3350
+Wire Wire Line
+	1150 3050 1700 3050
+Wire Wire Line
+	1150 2850 1700 2850
+Wire Wire Line
+	1150 2650 1700 2650
+Wire Wire Line
+	1150 2450 1700 2450
+Wire Wire Line
+	1150 2250 1700 2250
+Wire Wire Line
+	1150 2050 1700 2050
+Wire Wire Line
+	1150 1850 1700 1850
+Wire Wire Line
+	1150 1650 1700 1650
+Wire Wire Line
+	1150 1450 1700 1450
+Wire Wire Line
+	1150 1250 1700 1250
+$Comp
+L Device:Speaker LS1
+U 1 1 5F8FB1BB
+P 4100 950
+F 0 "LS1" H 4270 946 50  0000 L CNN
+F 1 "Speaker" H 4270 855 50  0000 L CNN
+F 2 "bc:wire_pad_3x5mm_x2" H 4100 750 50  0001 C CNN
+F 3 "~" H 4090 900 50  0001 C CNN
+	1    4100 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 950  3900 950 
+Wire Wire Line
+	1150 1050 3900 1050
+Text Label 1550 4150 2    50   ~ 0
+ACT_SHLD
+Text Label 1550 950  2    50   ~ 0
+SPEAKER+
+Text Label 1550 1050 2    50   ~ 0
+SPEAKER-
+Text Label 1550 4050 2    50   ~ 0
+LED_GND
+Text Label 1550 3850 2    50   ~ 0
+LED_C2_T
+Text Label 1550 3750 2    50   ~ 0
+CAP_C2
+Text Label 1550 1150 2    50   ~ 0
+CAP_C1
+Text Label 1550 1550 2    50   ~ 0
+CAP_D1
+Text Label 1550 1950 2    50   ~ 0
+CAP_E1
+Text Label 1550 2150 2    50   ~ 0
+CAP_F1
+Text Label 1550 1350 2    50   ~ 0
+CAP_C#1
+Text Label 1550 1750 2    50   ~ 0
+CAP_D#1
+Text Label 1550 2350 2    50   ~ 0
+CAP_F#1
+Text Label 1550 2550 2    50   ~ 0
+CAP_G1
+Text Label 1550 2750 2    50   ~ 0
+CAP_G#1
+Text Label 1550 2950 2    50   ~ 0
+CAP_A1
+Text Label 1550 3250 2    50   ~ 0
+CAP_A#1
+Text Label 1550 3450 2    50   ~ 0
+CAP_B1
+Text Label 1550 1250 2    50   ~ 0
+LED_C1
+Text Label 1550 1450 2    50   ~ 0
+LED_C#1
+Text Label 1550 1650 2    50   ~ 0
+LED_D1
+Text Label 1550 1850 2    50   ~ 0
+LED_D#1
+Text Label 1550 2050 2    50   ~ 0
+LED_E1
+Text Label 1550 2250 2    50   ~ 0
+LED_F1
+Text Label 1550 2450 2    50   ~ 0
+LED_F#1
+Text Label 1550 2650 2    50   ~ 0
+LED_G1
+Text Label 1550 2850 2    50   ~ 0
+LED_G#1
+Text Label 1550 3050 2    50   ~ 0
+LED_A1_T
+Text Label 1550 3350 2    50   ~ 0
+LED_A#1
+Text Label 1550 3550 2    50   ~ 0
+LED_B1_T
+Wire Wire Line
+	1150 3950 1700 3950
+Text Label 1550 3950 2    50   ~ 0
+LED_C2_B
+$Comp
+L Device:LED_Small D16
+U 1 1 5F968F88
+P 1800 3950
+F 0 "D16" H 1950 3900 50  0000 C CNN
+F 1 "LED_C2_B" H 1650 3900 50  0000 R CNN
+F 2 "bc:side_led" V 1800 3950 50  0001 C CNN
+F 3 "~" V 1800 3950 50  0001 C CNN
+	1    1800 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 3950 1900 3850
+Connection ~ 1900 3950
+Connection ~ 1900 3850
+Wire Wire Line
+	1150 3450 3450 3450
+$Comp
+L Device:LED_Small D14
+U 1 1 5F9784EE
+P 1800 3650
+F 0 "D14" H 1950 3600 50  0000 C CNN
+F 1 "LED_B1_B" H 1650 3600 50  0000 R CNN
+F 2 "bc:side_led" V 1800 3650 50  0001 C CNN
+F 3 "~" V 1800 3650 50  0001 C CNN
+	1    1800 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1150 3650 1700 3650
+Text Label 1550 3650 2    50   ~ 0
+LED_B1_B
+$Comp
+L Device:LED_Small D11
+U 1 1 5F99821E
+P 1800 3150
+F 0 "D11" H 1950 3100 50  0000 C CNN
+F 1 "LED_A1_B" H 1650 3100 50  0000 R CNN
+F 2 "bc:side_led" V 1800 3150 50  0001 C CNN
+F 3 "~" V 1800 3150 50  0001 C CNN
+	1    1800 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1150 3150 1700 3150
+Text Label 1550 3150 2    50   ~ 0
+LED_A1_B
+Wire Wire Line
+	1900 3050 1900 3150
+Connection ~ 1900 3050
+Connection ~ 1900 3150
+Wire Wire Line
+	1900 3350 1900 3550
+Connection ~ 1900 3350
+Wire Wire Line
+	1900 3550 1900 3650
+Connection ~ 1900 3550
+Connection ~ 1900 3650
+Wire Wire Line
+	1150 4150 1900 4150
+$Comp
+L power:GNDD #PWR0101
+U 1 1 5FA27825
+P 1900 4150
+F 0 "#PWR0101" H 1900 3900 50  0001 C CNN
+F 1 "GNDD" H 1904 3995 50  0000 C CNN
+F 2 "" H 1900 4150 50  0001 C CNN
+F 3 "" H 1900 4150 50  0001 C CNN
+	1    1900 4150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
