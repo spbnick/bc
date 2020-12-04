@@ -82,11 +82,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.313708"
-     inkscape:cx="267.65224"
-     inkscape:cy="32.161629"
+     inkscape:zoom="2"
+     inkscape:cx="11.328373"
+     inkscape:cy="168.22053"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="g3152"
      inkscape:document-rotation="0"
      showgrid="false"
      height="50mm"
@@ -497,7 +497,8 @@
      inkscape:label="Hints"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:none;opacity:0.458465">
+     style="display:none;opacity:0.458465"
+     sodipodi:insensitive="true">
     <image
        width="83.5"
        height="29.473705"
@@ -958,7 +959,8 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Speaker slots"
-     style="display:inline">
+     style="display:none"
+     sodipodi:insensitive="true">
     <rect
        style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect2324"
@@ -1071,8 +1073,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Writing"
-     style="display:none"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <g
        id="g3152"
        transform="translate(-0.34591109)">

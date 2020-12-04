@@ -1,0 +1,109 @@
+LEDs
+    Blue
+    Pads for reverse gullwing LEDs
+        Buy a few
+    Pads compatible with both side view LEDs and normal LEDs
+        Buy a few side view LEDs
+        Buy a few normal LEDs
+
+PCB:
+    LEDS:
+        We can use the same footprint for both LEDs:
+
+           Top view:
+
+            2.05  1  2.05
+           [    ]   [    ] 1
+            K #1     A #2
+           White:
+            -          +   | 
+            -----|<-----   | 
+                          \|/
+                            
+           Blue:            
+            -          +  /|\
+            -----|<-----   |
+                          \|/
+
+    Keys:
+        Flooded:
+            All:
+                50% copper, 50% soldermask
+            LEDs on top:
+                Two small keys
+            LEDs on top and bottom:
+                Two big keys
+                The biggest key
+        Vertical slit:
+            Four keys
+        Horizontal slit:
+            Four keys
+
+    Speakers
+        Pads close to speakers?
+
+TODO
+    See if we can just switch to red LEDs and connect them to the battery
+    directly. They have the lowest voltage drop.
+        - no, they're not bright enough
+
+----
+What do we want with the backlight? In order of priority:
+    Sufficient illumination for our design, i.e. enough brightness.
+    Low power consumption
+    Low component cost
+Non-negotiable constraints:
+    Supply voltage 2-3V
+    Space
+    MCU pin count
+Options:
+    Charge pumps with multiplexing
+        - Efficiency might not be good, power consumption too high,
+          but needs measuring
+        + Cheap
+    Boost converter driver with current-limiting resistors and switching with
+    open-collector pins
+        Extra components
+----
+OK, we cannot do a perfect lightpipe. We can't do a 3D-printed lightpipe at
+all, actually. We can do a reflective enclosure, plus a poor 3D-printed
+diffuser. That will have to be good enough.
+
+What we need to get it further:
+* We need to have copper covering the light where we don't need it, on either
+  side.
+    * We can't have it come all the way to the LED on the LED side, but we can
+      have it come all the way everywhere else, and cover the LED on the other
+      side. This way we can keep the impression of disconnected tactile
+      ("bumpy") keys.
+
+----
+TODO
+    Find out the capacitance and frequency sufficient for the key backlight
+        390nF±10% at 10kHz is enough for two LEDs
+        Two 390nF±10% capacitors (735nF total) at 5kHz is good for two LEDs too
+        Three 390nF±10% capacitors (1.1uF total) was good at 4kHz for two LEDs
+    Find out if 50% fill keys can be sensed
+    Find out if the 50% fill keys can be sensed with LEDs on and pulsing
+    Make the sound work with the amplifier
+        Done, but the CR2016 battery died very fast - too much current
+        We need to switch to double AAA batteries
+    Make the sound work with the MCU ADC
+    Make sound generation work
+    Make sound mixing work
+    Figure out a way to fix the 3D-printed case to the PCB (or the other way around)
+        Using Keystone 5019 test point or 110 battery contact to couple with
+        the 3D-printed case
+    Check if maybe the piezo transducers could work for us with less power
+    (unlikely)
+        Actually they could. Wouldn't sound good, but consumes much less
+        power.
+    Verify transducer power consumption
+
+Shall we do another prototype just using an smd transducer?
+We won't have to have so much filtering for low power transducer, then.
+We could have pads for both kinds of fasteners, just to try them out.
+We could have the simplest possible key shapes to make it easier.
+We could have cr2032 as the power supply
+Could be fun and look neat, even though it won't sound good!
+We can put the transducer onto the ADC pin in case we want to use it.

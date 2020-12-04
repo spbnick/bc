@@ -1,0 +1,17 @@
+*.bak
+*.stl
+*.dxf
+*.FCStd[1-9]
+*.net
+*.zip
+*.bak
+*-bak
+*.bin
+*.d
+*.elf
+*.o
+*.csv
+*.xml
+.svg2shenzhen-cache
+fp-info-cache
+gerbers
