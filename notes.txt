@@ -99,6 +99,11 @@ TODO
         Actually they could. Wouldn't sound good, but consumes much less
         power.
     Verify transducer power consumption
+        Yep, good, around 1mA, IIRC
+    Add ESD protection resistors
+        Done
+    Add reverse battery polarity protection
+    Add test points
 
 Shall we do another prototype just using an smd transducer?
 We won't have to have so much filtering for low power transducer, then.
