@@ -18,18 +18,10 @@ static void
 usart_init(void)
 {
     /* Configure TX (PA14) and RX (PA15) pins */
-    GPIO_A->moder = (GPIO_A->moder & ~(GPIO_MODER_MODE14_MASK |
-                                       GPIO_MODER_MODE15_MASK)) |
-                    (GPIO_MODE_AF << GPIO_MODER_MODE14_LSB) |
-                    (GPIO_MODE_AF << GPIO_MODER_MODE15_LSB);
-    GPIO_A->ospeedr = (GPIO_A->ospeedr & ~(GPIO_OSPEEDR_OSPEED14_MASK |
-                                           GPIO_OSPEEDR_OSPEED15_MASK)) |
-                      (GPIO_OSPEED_HIGH << GPIO_OSPEEDR_OSPEED14_LSB) |
-                      (GPIO_OSPEED_HIGH << GPIO_OSPEEDR_OSPEED15_LSB);
-    GPIO_A->afrh = (GPIO_A->afrl &
-                    ~(GPIO_AFRH_AFSEL14_MASK | GPIO_AFRH_AFSEL15_MASK)) |
-                   (4 << GPIO_AFRH_AFSEL14_LSB) |
-                   (4 << GPIO_AFRH_AFSEL15_LSB);
+    gpio_pin_conf_af(GPIO_A, 14, 4, GPIO_OTYPE_PUSH_PULL,
+                     GPIO_PUPD_NONE, GPIO_OSPEED_HIGH);
+    gpio_pin_conf_af(GPIO_A, 15, 4, GPIO_OTYPE_PUSH_PULL,
+                     GPIO_PUPD_NONE, GPIO_OSPEED_HIGH);
 
     /* Enable clock to USART2 */
     RCC->apb1enr |= RCC_APB1ENR_USART2EN_MASK;
@@ -193,60 +185,22 @@ tsc_init(void)
     size_t i;
 
     /* Configure group 4 */
-    GPIO_A->moder = (GPIO_A->moder & ~(GPIO_MODER_MODE9_MASK |
-                                       GPIO_MODER_MODE11_MASK |
-                                       GPIO_MODER_MODE12_MASK)) |
-                    (GPIO_MODE_AF << GPIO_MODER_MODE9_LSB) |
-                    (GPIO_MODE_AF << GPIO_MODER_MODE11_LSB) |
-                    (GPIO_MODE_AF << GPIO_MODER_MODE12_LSB);
-    GPIO_A->otyper = (GPIO_A->otyper & ~(GPIO_OTYPER_OT9_MASK |
-                                         GPIO_OTYPER_OT11_MASK |
-                                         GPIO_OTYPER_OT12_MASK)) |
-                     (GPIO_OTYPE_OPEN_DRAIN << GPIO_OTYPER_OT9_LSB) |
-                     (GPIO_OTYPE_PUSH_PULL << GPIO_OTYPER_OT11_LSB) |
-                     (GPIO_OTYPE_PUSH_PULL << GPIO_OTYPER_OT12_LSB);
-    GPIO_A->ospeedr = (GPIO_A->ospeedr & ~(GPIO_OSPEEDR_OSPEED11_MASK |
-                                           GPIO_OSPEEDR_OSPEED12_MASK)) |
-                      (GPIO_OSPEED_HIGH << GPIO_OSPEEDR_OSPEED11_LSB) |
-                      (GPIO_OSPEED_HIGH << GPIO_OSPEEDR_OSPEED12_LSB);
-    GPIO_A->afrh = (GPIO_A->afrh & ~(GPIO_AFRH_AFSEL9_MASK |
-                                     GPIO_AFRH_AFSEL11_MASK |
-                                     GPIO_AFRH_AFSEL12_MASK)) |
-                   (3 << GPIO_AFRH_AFSEL9_LSB) |
-                   (3 << GPIO_AFRH_AFSEL11_LSB) |
-                   (3 << GPIO_AFRH_AFSEL12_LSB);
+    gpio_pin_conf_af(GPIO_A, 9, 3, GPIO_OTYPE_OPEN_DRAIN,
+                     GPIO_PUPD_NONE, GPIO_OSPEED_HIGH);
+    gpio_pin_conf_af(GPIO_A, 11, 3, GPIO_OTYPE_PUSH_PULL,
+                     GPIO_PUPD_NONE, GPIO_OSPEED_HIGH);
+    gpio_pin_conf_af(GPIO_A, 12, 3, GPIO_OTYPE_PUSH_PULL,
+                     GPIO_PUPD_NONE, GPIO_OSPEED_HIGH);
 
     /* Configure group 5 */
-    GPIO_B->moder = (GPIO_B->moder & ~(GPIO_MODER_MODE3_MASK |
-                                       GPIO_MODER_MODE4_MASK |
-                                       GPIO_MODER_MODE6_MASK |
-                                       GPIO_MODER_MODE7_MASK)) |
-                    (GPIO_MODE_AF << GPIO_MODER_MODE3_LSB) |
-                    (GPIO_MODE_AF << GPIO_MODER_MODE4_LSB) |
-                    (GPIO_MODE_AF << GPIO_MODER_MODE6_LSB) |
-                    (GPIO_MODE_AF << GPIO_MODER_MODE7_LSB);
-    GPIO_B->otyper = (GPIO_B->otyper & ~(GPIO_OTYPER_OT3_MASK |
-                                         GPIO_OTYPER_OT4_MASK |
-                                         GPIO_OTYPER_OT6_MASK |
-                                         GPIO_OTYPER_OT7_MASK)) |
-                     (GPIO_OTYPE_OPEN_DRAIN << GPIO_OTYPER_OT3_LSB) |
-                     (GPIO_OTYPE_PUSH_PULL << GPIO_OTYPER_OT4_LSB) |
-                     (GPIO_OTYPE_PUSH_PULL << GPIO_OTYPER_OT6_LSB) |
-                     (GPIO_OTYPE_PUSH_PULL << GPIO_OTYPER_OT7_LSB);
-    GPIO_B->ospeedr = (GPIO_B->ospeedr & ~(GPIO_OSPEEDR_OSPEED4_MASK |
-                                           GPIO_OSPEEDR_OSPEED6_MASK |
-                                           GPIO_OSPEEDR_OSPEED7_MASK)) |
-                      (GPIO_OSPEED_HIGH << GPIO_OSPEEDR_OSPEED4_LSB) |
-                      (GPIO_OSPEED_HIGH << GPIO_OSPEEDR_OSPEED6_LSB) |
-                      (GPIO_OSPEED_HIGH << GPIO_OSPEEDR_OSPEED7_LSB);
-    GPIO_B->afrl = (GPIO_B->afrl & ~(GPIO_AFRL_AFSEL3_MASK |
-                                     GPIO_AFRL_AFSEL4_MASK |
-                                     GPIO_AFRL_AFSEL6_MASK |
-                                     GPIO_AFRL_AFSEL7_MASK)) |
-                   (3 << GPIO_AFRL_AFSEL3_LSB) |
-                   (3 << GPIO_AFRL_AFSEL4_LSB) |
-                   (3 << GPIO_AFRL_AFSEL6_LSB) |
-                   (3 << GPIO_AFRL_AFSEL7_LSB);
+    gpio_pin_conf_af(GPIO_B, 3, 3, GPIO_OTYPE_OPEN_DRAIN,
+                     GPIO_PUPD_NONE, GPIO_OSPEED_HIGH);
+    gpio_pin_conf_af(GPIO_B, 4, 3, GPIO_OTYPE_PUSH_PULL,
+                     GPIO_PUPD_NONE, GPIO_OSPEED_HIGH);
+    gpio_pin_conf_af(GPIO_B, 6, 3, GPIO_OTYPE_PUSH_PULL,
+                     GPIO_PUPD_NONE, GPIO_OSPEED_HIGH);
+    gpio_pin_conf_af(GPIO_B, 7, 3, GPIO_OTYPE_PUSH_PULL,
+                     GPIO_PUPD_NONE, GPIO_OSPEED_HIGH);
 
     /* Enable clock to the TSC */
     RCC->ahbenr |= RCC_AHBENR_TSCEN_MASK;
