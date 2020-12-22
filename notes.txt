@@ -112,3 +112,12 @@ We could have the simplest possible key shapes to make it easier.
 We could have cr2032 as the power supply
 Could be fun and look neat, even though it won't sound good!
 We can put the transducer onto the ADC pin in case we want to use it.
+----
+Let's try to analyze the LED lighting circuit.
+We're boosting the power with a diode and a capacitor, and are having a
+matrix.
+First, it doesn't seem to work as we've drawn and built it. It might be an
+assembly mistake.
+Next, because inactive LEDs are still connected to the power supply through
+the diode they can still light if the power supply is high enough, even though
+the capacitor is not pulsed.

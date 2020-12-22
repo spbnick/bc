@@ -7,6 +7,7 @@
 #include <gpio.h>
 #include <usart.h>
 #include <tsc.h>
+#include <tim.h>
 #include <string.h>
 #include <stdint.h>
 #include <stdbool.h>
@@ -80,7 +81,7 @@ struct tsc_step {
     size_t group_list[3][2];
 };
 
-const struct tsc_step TSC_STEP_LIST[] = {
+static const struct tsc_step TSC_STEP_LIST[] = {
     {
         .iogcsr_mask = TSC_IOGCSR_G4E_MASK | TSC_IOGCSR_G5E_MASK,
         .iogcsr_value = TSC_IOGCSR_G4E_MASK | TSC_IOGCSR_G5E_MASK,
@@ -113,7 +114,7 @@ const struct tsc_step TSC_STEP_LIST[] = {
 #define TSC_STEP_NUM ARRAY_SIZE(TSC_STEP_LIST)
 
 /** Values acquired from the touch sense controller */
-volatile unsigned int TSC_VALUE_LIST[5];
+static volatile unsigned int TSC_VALUE_LIST[5];
 
 /**
  * Start a touch sense controller acquisition step.
@@ -121,7 +122,7 @@ volatile unsigned int TSC_VALUE_LIST[5];
  * @param step_idx  The index of the step to start.
  *                  Must be less than TSC_STEP_NUM.
  */
-void
+static void
 tsc_step_start(size_t step_idx)
 {
     assert(step_idx < TSC_STEP_NUM);
@@ -138,7 +139,7 @@ tsc_step_start(size_t step_idx)
  * @param step_idx  The index of the step to output values of.
  *                  Must be less than TSC_STEP_NUM.
  */
-void
+static void
 tsc_step_output(size_t step_idx)
 {
     assert(step_idx < TSC_STEP_NUM);
@@ -251,26 +252,140 @@ tsc_init(void)
     tsc_step_start(TSC_STEP_IDX);
 }
 
-#if 0
+/** LEDs timer */
+static volatile struct tim *LEDS_TIM;
+
+/** LEDs CLK GPIO peripheral */
+static volatile struct gpio *LEDS_GPIO_CLK;
+
+/** LEDs PWR GPIO peripheral */
+static volatile struct gpio *LEDS_GPIO_PWR;
+
+/** Number of LEDs */
+static const unsigned int LEDS_NUM = 5;
+
+/** First clock GPIO pin number */
+static const unsigned int LEDS_GPIO_CLK_BASE = 8;
+
+/** First power GPIO pin number */
+static const unsigned int LEDS_GPIO_PWR_BASE = 4;
+
+/** Currently-lit LED */
+static volatile unsigned int LEDS_ON;
+
+/** LEDs tick counter */
+static volatile unsigned int LEDS_TICK;
+
+/** Number of ticks per LED */
+static volatile unsigned int LEDS_ON_TICKS;
+
+/**
+ * Handle TIM2 interrupts.
+ */
+void tim2_irq_handler(void) __attribute__ ((isr));
+void
+tim2_irq_handler(void)
+{
+    if (LEDS_TIM->sr & TIM_SR_CC1IF_MASK) {
+        /* Toggle the current LED clock */
+        gpio_pin_set(LEDS_GPIO_CLK, LEDS_GPIO_CLK_BASE + LEDS_ON,
+                     (LEDS_TICK & 1));
+        /* Move on */
+        LEDS_TICK++;
+        if (LEDS_TICK >= LEDS_ON_TICKS) {
+            /* Turn off the current power pin */
+            gpio_pin_set(LEDS_GPIO_PWR, LEDS_GPIO_PWR_BASE + LEDS_ON, 0);
+            LEDS_TICK = 0;
+            LEDS_ON++;
+            if (LEDS_ON >= LEDS_NUM) {
+                LEDS_ON = 0;
+            }
+            /* Turn on the next power pin */
+            gpio_pin_set(LEDS_GPIO_PWR, LEDS_GPIO_PWR_BASE + LEDS_ON, 1);
+        }
+        /* Restart timer */
+        LEDS_TIM->egr |= TIM_EGR_UG_MASK;
+        LEDS_TIM->cr1 |= TIM_CR1_CEN_MASK | TIM_CR1_OPM_MASK;
+    }
+    /* Clear interrupt flags */
+    LEDS_TIM->sr = 0;
+}
+
 /**
  * Initialize LEDs
  */
-void
+static void
 leds_init(void)
 {
+    unsigned int i;
+
+    /*
+     * Setup LED pins
+     */
+    /* Pick GPIO_B peripheral for clock */
+    LEDS_GPIO_CLK = GPIO_B;
+    /* Pick GPIO_A peripheral for power */
+    LEDS_GPIO_PWR = GPIO_A;
+    /* Turn off and initialize all pins */
+    for (i = 0; i < LEDS_NUM; i++) {
+        gpio_pin_set(LEDS_GPIO_CLK, LEDS_GPIO_CLK_BASE + i, 0);
+        gpio_pin_set(LEDS_GPIO_PWR, LEDS_GPIO_PWR_BASE + i, 0);
+        gpio_pin_conf_output(LEDS_GPIO_CLK, LEDS_GPIO_CLK_BASE + i,
+                             GPIO_OTYPE_PUSH_PULL,
+                             GPIO_PUPD_NONE, GPIO_OSPEED_HIGH);
+        gpio_pin_conf_output(LEDS_GPIO_PWR, LEDS_GPIO_PWR_BASE + i,
+                             GPIO_OTYPE_PUSH_PULL,
+                             GPIO_PUPD_NONE, GPIO_OSPEED_HIGH);
+    }
+
+    /*
+     * Reset state
+     */
+    LEDS_ON = 0;
+    LEDS_TICK = 0;
+    /* Light each LED for one second */
+    LEDS_ON_TICKS = 8000;
+    /* Turn on the first power pin */
+    gpio_pin_set(LEDS_GPIO_PWR, LEDS_GPIO_PWR_BASE + LEDS_ON, 1);
+
+    /*
+     * Set up the timer
+     */
+    /* Pick TIM2 */
+    LEDS_TIM = TIM2;
+    /* Enable clock to the timer */
+    RCC->apb1enr |= RCC_APB1ENR_TIM2EN_MASK;
+    /* Enable timer interrupt */
+    nvic_int_set_enable(NVIC_INT_TIM2);
+    /* Enable auto-reload preload, select downcounting */
+    LEDS_TIM->cr1 = (LEDS_TIM->cr1 & ~TIM_CR1_DIR_MASK) |
+                    (TIM_CR1_DIR_VAL_DOWN << TIM_CR1_DIR_LSB) |
+                    TIM_CR1_ARPE_MASK;
+    /* Set prescaler to get CK_CNT = 8KHz = 32MHz(APB1) / 4000 */
+    LEDS_TIM->psc = 3999;
+    /* Set auto-reload register to have 8KHz frequency */
+    LEDS_TIM->arr = 1;
+    /* Generate an update event to transfer data to shadow registers */
+    LEDS_TIM->egr |= TIM_EGR_UG_MASK;
+    /* Enable Capture/Compare 1 interrupt */
+    LEDS_TIM->dier |= TIM_DIER_CC1IE_MASK;
+    /* Enable counter */
+    LEDS_TIM->cr1 |= TIM_CR1_CEN_MASK | TIM_CR1_OPM_MASK;
 }
-#endif
 
 int
 main(void)
 {
     /* Basic init */
     init();
+
     /* Enable clock to I/O port A */
     RCC->iopenr |= RCC_IOPENR_IOPAEN_MASK | RCC_IOPENR_IOPBEN_MASK;
 
     usart_init();
     tsc_init();
+    leds_init();
+
     /* Clear the screen and hide the cursor */
     usart_printf("\e[2J\e[?25l");
     while (true) {
