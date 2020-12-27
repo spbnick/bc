@@ -179,8 +179,9 @@ U 1 1 5FCCE5B7
 P 1900 4900
 F 0 "D5" V 1939 4782 50  0000 R CNN
 F 1 "LED" V 1848 4782 50  0000 R CNN
-F 2 "" H 1900 4900 50  0001 C CNN
-F 3 "~" H 1900 4900 50  0001 C CNN
+F 2 "bc:side_led" H 1900 4900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 1900 4900 50  0001 C CNN
+F 4 "160-1870-1-ND" V 1900 4900 50  0001 C CNN "Digi-Key"
 	1    1900 4900
 	0    -1   -1   0   
 $EndComp
@@ -197,8 +198,8 @@ U 1 1 5FCC3185
 P 1900 5750
 F 0 "D6" V 1939 5632 50  0000 R CNN
 F 1 "LED" V 1848 5632 50  0000 R CNN
-F 2 "" H 1900 5750 50  0001 C CNN
-F 3 "~" H 1900 5750 50  0001 C CNN
+F 2 "bc:side_led" H 1900 5750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 1900 5750 50  0001 C CNN
 	1    1900 5750
 	0    -1   -1   0   
 $EndComp
@@ -220,8 +221,8 @@ U 1 1 5FC9A466
 P 2750 4900
 F 0 "D11" V 2789 4782 50  0000 R CNN
 F 1 "LED" V 2698 4782 50  0000 R CNN
-F 2 "" H 2750 4900 50  0001 C CNN
-F 3 "~" H 2750 4900 50  0001 C CNN
+F 2 "bc:side_led" H 2750 4900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 2750 4900 50  0001 C CNN
 	1    2750 4900
 	0    -1   -1   0   
 $EndComp
@@ -235,8 +236,8 @@ U 1 1 5FC92F28
 P 2750 5750
 F 0 "D12" V 2789 5632 50  0000 R CNN
 F 1 "LED" V 2698 5632 50  0000 R CNN
-F 2 "" H 2750 5750 50  0001 C CNN
-F 3 "~" H 2750 5750 50  0001 C CNN
+F 2 "bc:side_led" H 2750 5750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 2750 5750 50  0001 C CNN
 	1    2750 5750
 	0    -1   -1   0   
 $EndComp
@@ -264,8 +265,8 @@ U 1 1 5FC6F25C
 P 3600 4900
 F 0 "D16" V 3639 4782 50  0000 R CNN
 F 1 "LED" V 3548 4782 50  0000 R CNN
-F 2 "" H 3600 4900 50  0001 C CNN
-F 3 "~" H 3600 4900 50  0001 C CNN
+F 2 "bc:side_led" H 3600 4900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 3600 4900 50  0001 C CNN
 	1    3600 4900
 	0    -1   -1   0   
 $EndComp
@@ -277,8 +278,8 @@ U 1 1 5FC6807D
 P 3600 5750
 F 0 "D17" V 3639 5632 50  0000 R CNN
 F 1 "LED" V 3548 5632 50  0000 R CNN
-F 2 "" H 3600 5750 50  0001 C CNN
-F 3 "~" H 3600 5750 50  0001 C CNN
+F 2 "bc:side_led" H 3600 5750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 3600 5750 50  0001 C CNN
 	1    3600 5750
 	0    -1   -1   0   
 $EndComp
@@ -298,8 +299,8 @@ U 1 1 5FAC18F2
 P 4800 4900
 F 0 "D23" V 4839 4782 50  0000 R CNN
 F 1 "LED" V 4748 4782 50  0000 R CNN
-F 2 "" H 4800 4900 50  0001 C CNN
-F 3 "~" H 4800 4900 50  0001 C CNN
+F 2 "bc:side_led" H 4800 4900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 4800 4900 50  0001 C CNN
 	1    4800 4900
 	0    -1   -1   0   
 $EndComp
@@ -317,8 +318,8 @@ U 1 1 5FAC6502
 P 4800 5750
 F 0 "D24" V 4839 5632 50  0000 R CNN
 F 1 "LED" V 4748 5632 50  0000 R CNN
-F 2 "" H 4800 5750 50  0001 C CNN
-F 3 "~" H 4800 5750 50  0001 C CNN
+F 2 "bc:side_led" H 4800 5750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 4800 5750 50  0001 C CNN
 	1    4800 5750
 	0    -1   -1   0   
 $EndComp
@@ -334,8 +335,8 @@ U 1 1 5FB10A1A
 P 4800 6600
 F 0 "D25" V 4839 6482 50  0000 R CNN
 F 1 "LED" V 4748 6482 50  0000 R CNN
-F 2 "" H 4800 6600 50  0001 C CNN
-F 3 "~" H 4800 6600 50  0001 C CNN
+F 2 "bc:side_led" H 4800 6600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 4800 6600 50  0001 C CNN
 	1    4800 6600
 	0    -1   -1   0   
 $EndComp
@@ -359,8 +360,8 @@ U 1 1 5FC414DF
 P 4450 4900
 F 0 "D21" V 4489 4782 50  0000 R CNN
 F 1 "LED" V 4398 4782 50  0000 R CNN
-F 2 "" H 4450 4900 50  0001 C CNN
-F 3 "~" H 4450 4900 50  0001 C CNN
+F 2 "bc:side_led" H 4450 4900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 4450 4900 50  0001 C CNN
 	1    4450 4900
 	0    -1   -1   0   
 $EndComp
@@ -376,8 +377,8 @@ U 1 1 5FC414E8
 P 4450 5750
 F 0 "D22" V 4489 5632 50  0000 R CNN
 F 1 "LED" V 4398 5632 50  0000 R CNN
-F 2 "" H 4450 5750 50  0001 C CNN
-F 3 "~" H 4450 5750 50  0001 C CNN
+F 2 "bc:side_led" H 4450 5750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 4450 5750 50  0001 C CNN
 	1    4450 5750
 	0    -1   -1   0   
 $EndComp
@@ -426,8 +427,8 @@ U 1 1 5FB10A23
 P 3950 6600
 F 0 "D20" V 3989 6482 50  0000 R CNN
 F 1 "LED" V 3898 6482 50  0000 R CNN
-F 2 "" H 3950 6600 50  0001 C CNN
-F 3 "~" H 3950 6600 50  0001 C CNN
+F 2 "bc:side_led" H 3950 6600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 3950 6600 50  0001 C CNN
 	1    3950 6600
 	0    -1   -1   0   
 $EndComp
@@ -447,8 +448,8 @@ U 1 1 5FB10A0F
 P 3100 6600
 F 0 "D15" V 3139 6482 50  0000 R CNN
 F 1 "LED" V 3048 6482 50  0000 R CNN
-F 2 "" H 3100 6600 50  0001 C CNN
-F 3 "~" H 3100 6600 50  0001 C CNN
+F 2 "bc:side_led" H 3100 6600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 3100 6600 50  0001 C CNN
 	1    3100 6600
 	0    -1   -1   0   
 $EndComp
@@ -477,8 +478,8 @@ U 1 1 5FAE636D
 P 2250 6600
 F 0 "D9" V 2289 6482 50  0000 R CNN
 F 1 "LED" V 2198 6482 50  0000 R CNN
-F 2 "" H 2250 6600 50  0001 C CNN
-F 3 "~" H 2250 6600 50  0001 C CNN
+F 2 "bc:side_led" H 2250 6600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 2250 6600 50  0001 C CNN
 	1    2250 6600
 	0    -1   -1   0   
 $EndComp
@@ -488,8 +489,8 @@ U 1 1 5FAC64FC
 P 3950 5750
 F 0 "D19" V 3989 5632 50  0000 R CNN
 F 1 "LED" V 3898 5632 50  0000 R CNN
-F 2 "" H 3950 5750 50  0001 C CNN
-F 3 "~" H 3950 5750 50  0001 C CNN
+F 2 "bc:side_led" H 3950 5750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 3950 5750 50  0001 C CNN
 	1    3950 5750
 	0    -1   -1   0   
 $EndComp
@@ -511,8 +512,8 @@ U 1 1 5FAC64F4
 P 3100 5750
 F 0 "D14" V 3139 5632 50  0000 R CNN
 F 1 "LED" V 3048 5632 50  0000 R CNN
-F 2 "" H 3100 5750 50  0001 C CNN
-F 3 "~" H 3100 5750 50  0001 C CNN
+F 2 "bc:side_led" H 3100 5750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 3100 5750 50  0001 C CNN
 	1    3100 5750
 	0    -1   -1   0   
 $EndComp
@@ -524,8 +525,8 @@ U 1 1 5FAC64DA
 P 2250 5750
 F 0 "D8" V 2289 5632 50  0000 R CNN
 F 1 "LED" V 2198 5632 50  0000 R CNN
-F 2 "" H 2250 5750 50  0001 C CNN
-F 3 "~" H 2250 5750 50  0001 C CNN
+F 2 "bc:side_led" H 2250 5750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 2250 5750 50  0001 C CNN
 	1    2250 5750
 	0    -1   -1   0   
 $EndComp
@@ -548,8 +549,8 @@ U 1 1 5FAC18EC
 P 3950 4900
 F 0 "D18" V 3989 4782 50  0000 R CNN
 F 1 "LED" V 3898 4782 50  0000 R CNN
-F 2 "" H 3950 4900 50  0001 C CNN
-F 3 "~" H 3950 4900 50  0001 C CNN
+F 2 "bc:side_led" H 3950 4900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 3950 4900 50  0001 C CNN
 	1    3950 4900
 	0    -1   -1   0   
 $EndComp
@@ -562,8 +563,8 @@ U 1 1 5FAC18E4
 P 3100 4900
 F 0 "D13" V 3139 4782 50  0000 R CNN
 F 1 "LED" V 3048 4782 50  0000 R CNN
-F 2 "" H 3100 4900 50  0001 C CNN
-F 3 "~" H 3100 4900 50  0001 C CNN
+F 2 "bc:side_led" H 3100 4900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 3100 4900 50  0001 C CNN
 	1    3100 4900
 	0    -1   -1   0   
 $EndComp
@@ -575,8 +576,8 @@ U 1 1 5FAC18CA
 P 2250 4900
 F 0 "D7" V 2289 4782 50  0000 R CNN
 F 1 "LED" V 2198 4782 50  0000 R CNN
-F 2 "" H 2250 4900 50  0001 C CNN
-F 3 "~" H 2250 4900 50  0001 C CNN
+F 2 "bc:side_led" H 2250 4900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 2250 4900 50  0001 C CNN
 	1    2250 4900
 	0    -1   -1   0   
 $EndComp
@@ -592,8 +593,8 @@ U 1 1 5F9EBA99
 P 2250 7200
 F 0 "D10" V 2289 7082 50  0000 R CNN
 F 1 "LED" V 2198 7082 50  0000 R CNN
-F 2 "" H 2250 7200 50  0001 C CNN
-F 3 "~" H 2250 7200 50  0001 C CNN
+F 2 "bc:side_led" H 2250 7200 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 2250 7200 50  0001 C CNN
 	1    2250 7200
 	0    -1   -1   0   
 $EndComp
@@ -704,7 +705,7 @@ U 1 1 5FEA7696
 P 7050 1350
 F 0 "J1" H 6900 700 50  0000 C CNN
 F 1 "Edge Connector" H 6900 800 50  0000 C CNN
-F 2 "" H 7050 1350 50  0001 C CNN
+F 2 "bc:edge_connector" H 7050 1350 50  0001 C CNN
 F 3 "~" H 7050 1350 50  0001 C CNN
 	1    7050 1350
 	-1   0    0    1   
@@ -839,29 +840,30 @@ Wire Wire Line
 $Comp
 L Device:Speaker_Crystal LS1
 U 1 1 5FCC75DB
-P 1050 2800
-F 0 "LS1" H 1016 3117 50  0000 C CNN
-F 1 "Transducer" H 1016 3026 50  0000 C CNN
-F 2 "" H 1015 2750 50  0001 C CNN
-F 3 "https://www.mouser.fi/datasheet/2/334/SMT-0940-T-3V-R-976144.pdf" H 1015 2750 50  0001 C CNN
-	1    1050 2800
+P 750 2800
+F 0 "LS1" H 716 3117 50  0000 C CNN
+F 1 "Transducer" H 716 3026 50  0000 C CNN
+F 2 "bc:transducer" H 715 2750 50  0001 C CNN
+F 3 "https://www.puiaudio.com/media/SpecSheet/SMT-0940-T-3V-R.pdf" H 715 2750 50  0001 C CNN
+F 4 "668-1538-1-ND" H 750 2800 50  0001 C CNN "Digi-Key"
+	1    750  2800
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 5FCCA8BC
-P 1250 3000
-F 0 "#PWR02" H 1250 2750 50  0001 C CNN
-F 1 "GND" H 1255 2827 50  0000 C CNN
-F 2 "" H 1250 3000 50  0001 C CNN
-F 3 "" H 1250 3000 50  0001 C CNN
-	1    1250 3000
+P 950 3100
+F 0 "#PWR02" H 950 2850 50  0001 C CNN
+F 1 "GND" H 955 2927 50  0000 C CNN
+F 2 "" H 950 3100 50  0001 C CNN
+F 3 "" H 950 3100 50  0001 C CNN
+	1    950  3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 3000 1250 2900
+	950  3100 950  2900
 Wire Wire Line
-	1250 2800 2400 2800
+	950  2800 1500 2800
 Text Label 1800 2800 0    50   ~ 0
 TRANSDUCER
 Text Label 4200 3600 2    50   ~ 0
@@ -1083,7 +1085,7 @@ U 1 1 5FEEBF0B
 P 1250 1900
 F 0 "SW1" H 1250 2185 50  0000 C CNN
 F 1 "SW_Push" H 1250 2094 50  0000 C CNN
-F 2 "" H 1250 2100 50  0001 C CNN
+F 2 "bc:SW_Push_1P1T_NO_5.1x5.1mm_H2.5mm" H 1250 2100 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-C-A_C318889.pdf" H 1250 2100 50  0001 C CNN
 F 4 "C318889" H 1250 1900 50  0001 C CNN "LCSC"
 	1    1250 1900
@@ -3736,12 +3738,12 @@ F 3 "" H 5450 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP1
 U 1 1 60229C8E
 P 6150 2600
-F 0 "TP?" H 6208 2718 50  0000 L CNN
+F 0 "TP1" H 6208 2718 50  0000 L CNN
 F 1 "Catch" H 6208 2627 50  0000 L CNN
-F 2 "" H 6350 2600 50  0001 C CNN
+F 2 "bc:test_point" H 6350 2600 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5019_C238131.pdf" H 6350 2600 50  0001 C CNN
 F 4 "C238131" H 6150 2600 50  0001 C CNN "LCSC"
 	1    6150 2600
@@ -3749,12 +3751,12 @@ F 4 "C238131" H 6150 2600 50  0001 C CNN "LCSC"
 $EndComp
 NoConn ~ 6150 2600
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP3
 U 1 1 6023B25D
 P 6500 2750
-F 0 "TP?" H 6558 2868 50  0000 L CNN
+F 0 "TP3" H 6558 2868 50  0000 L CNN
 F 1 "Catch" H 6558 2777 50  0000 L CNN
-F 2 "" H 6700 2750 50  0001 C CNN
+F 2 "bc:test_point" H 6700 2750 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5019_C238131.pdf" H 6700 2750 50  0001 C CNN
 F 4 "C238131" H 6500 2750 50  0001 C CNN "LCSC"
 	1    6500 2750
@@ -3762,12 +3764,12 @@ F 4 "C238131" H 6500 2750 50  0001 C CNN "LCSC"
 $EndComp
 NoConn ~ 6500 2750
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP4
 U 1 1 60248E23
 P 6850 2600
-F 0 "TP?" H 6908 2718 50  0000 L CNN
+F 0 "TP4" H 6908 2718 50  0000 L CNN
 F 1 "Catch" H 6908 2627 50  0000 L CNN
-F 2 "" H 7050 2600 50  0001 C CNN
+F 2 "bc:test_point" H 7050 2600 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5019_C238131.pdf" H 7050 2600 50  0001 C CNN
 F 4 "C238131" H 6850 2600 50  0001 C CNN "LCSC"
 	1    6850 2600
@@ -3775,12 +3777,12 @@ F 4 "C238131" H 6850 2600 50  0001 C CNN "LCSC"
 $EndComp
 NoConn ~ 6850 2600
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP2
 U 1 1 60256A01
 P 6150 2900
-F 0 "TP?" H 6208 3018 50  0000 L CNN
+F 0 "TP2" H 6208 3018 50  0000 L CNN
 F 1 "Catch" H 6208 2927 50  0000 L CNN
-F 2 "" H 6350 2900 50  0001 C CNN
+F 2 "bc:test_point" H 6350 2900 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5019_C238131.pdf" H 6350 2900 50  0001 C CNN
 F 4 "C238131" H 6150 2900 50  0001 C CNN "LCSC"
 	1    6150 2900
@@ -3788,16 +3790,42 @@ F 4 "C238131" H 6150 2900 50  0001 C CNN "LCSC"
 $EndComp
 NoConn ~ 6150 2900
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP5
 U 1 1 602646C7
 P 6850 2900
-F 0 "TP?" H 6908 3018 50  0000 L CNN
+F 0 "TP5" H 6908 3018 50  0000 L CNN
 F 1 "Catch" H 6908 2927 50  0000 L CNN
-F 2 "" H 7050 2900 50  0001 C CNN
+F 2 "bc:test_point" H 7050 2900 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5019_C238131.pdf" H 7050 2900 50  0001 C CNN
 F 4 "C238131" H 6850 2900 50  0001 C CNN "LCSC"
 	1    6850 2900
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6850 2900
+$Comp
+L Device:D_Schottky D26
+U 1 1 5FE957FC
+P 1500 2950
+F 0 "D26" V 1546 2870 50  0000 R CNN
+F 1 "D_Schottky" V 1455 2870 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1500 2950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-B5819W_C8598.pdf" H 1500 2950 50  0001 C CNN
+F 4 " C8598" H 1500 2950 50  0001 C CNN "LCSC"
+	1    1500 2950
+	0    1    1    0   
+$EndComp
+Connection ~ 1500 2800
+Wire Wire Line
+	1500 2800 2400 2800
+$Comp
+L power:GND #PWR0101
+U 1 1 5FF0614C
+P 1500 3100
+F 0 "#PWR0101" H 1500 2850 50  0001 C CNN
+F 1 "GND" H 1505 2927 50  0000 C CNN
+F 2 "" H 1500 3100 50  0001 C CNN
+F 3 "" H 1500 3100 50  0001 C CNN
+	1    1500 3100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

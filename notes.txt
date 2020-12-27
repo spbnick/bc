@@ -103,7 +103,12 @@ TODO
     Add ESD protection resistors
         Done
     Add reverse battery polarity protection
+        Done
     Add test points
+        Done
+    Consider driving transducer with a transistor
+    Add flyback diode to the transducer
+        Done
 
 Shall we do another prototype just using an smd transducer?
 We won't have to have so much filtering for low power transducer, then.
