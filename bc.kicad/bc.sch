@@ -23,9 +23,9 @@ U 1 1 5F9E98FD
 P 1200 4750
 F 0 "C1" V 1452 4750 50  0000 C CNN
 F 1 "470nF" V 1350 4800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1238 4600 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10B474KA8NNNC_C1623.pdf" H 1200 4750 50  0001 C CNN
-F 4 "C1623" H 1200 4750 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1238 4600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A474KP5NNNC_C47339.pdf" H 1200 4750 50  0001 C CNN
+F 4 "C47339" H 1200 4750 50  0001 C CNN "LCSC"
 	1    1200 4750
 	0    -1   -1   0   
 $EndComp
@@ -47,9 +47,9 @@ U 1 1 5FAC18D0
 P 1200 5600
 F 0 "C3" V 1452 5600 50  0000 C CNN
 F 1 "470nF" V 1350 5650 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1238 5450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10B474KA8NNNC_C1623.pdf" H 1200 5600 50  0001 C CNN
-F 4 "C1623" H 1200 5600 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1238 5450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A474KP5NNNC_C47339.pdf" H 1200 5600 50  0001 C CNN
+F 4 "C47339" H 1200 5600 50  0001 C CNN "LCSC"
 	1    1200 5600
 	0    -1   -1   0   
 $EndComp
@@ -72,9 +72,9 @@ U 1 1 5FAC64E0
 P 1200 6450
 F 0 "C5" V 1452 6450 50  0000 C CNN
 F 1 "470nF" V 1350 6500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1238 6300 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10B474KA8NNNC_C1623.pdf" H 1200 6450 50  0001 C CNN
-F 4 "C1623" H 1200 6450 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1238 6300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A474KP5NNNC_C47339.pdf" H 1200 6450 50  0001 C CNN
+F 4 "C47339" H 1200 6450 50  0001 C CNN "LCSC"
 	1    1200 6450
 	0    -1   -1   0   
 $EndComp
@@ -97,9 +97,9 @@ U 1 1 5FAE6373
 P 1200 7050
 F 0 "C6" V 1452 7050 50  0000 C CNN
 F 1 "470nF" V 1350 7100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1238 6900 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10B474KA8NNNC_C1623.pdf" H 1200 7050 50  0001 C CNN
-F 4 "C1623" H 1200 7050 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1238 6900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A474KP5NNNC_C47339.pdf" H 1200 7050 50  0001 C CNN
+F 4 "C47339" H 1200 7050 50  0001 C CNN "LCSC"
 	1    1200 7050
 	0    -1   -1   0   
 $EndComp
@@ -139,9 +139,9 @@ U 1 1 5FBF59F8
 P 1200 5850
 F 0 "C4" V 950 5850 50  0000 C CNN
 F 1 "470nF" V 1050 5900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1238 5700 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10B474KA8NNNC_C1623.pdf" H 1200 5850 50  0001 C CNN
-F 4 "C1623" H 1200 5850 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1238 5700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A474KP5NNNC_C47339.pdf" H 1200 5850 50  0001 C CNN
+F 4 "C47339" H 1200 5850 50  0001 C CNN "LCSC"
 	1    1200 5850
 	0    -1   -1   0   
 $EndComp
@@ -156,9 +156,9 @@ U 1 1 5FC1D4B3
 P 1200 5000
 F 0 "C2" V 950 5000 50  0000 C CNN
 F 1 "470nF" V 1050 5050 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1238 4850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10B474KA8NNNC_C1623.pdf" H 1200 5000 50  0001 C CNN
-F 4 "C1623" H 1200 5000 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1238 4850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A474KP5NNNC_C47339.pdf" H 1200 5000 50  0001 C CNN
+F 4 "C47339" H 1200 5000 50  0001 C CNN "LCSC"
 	1    1200 5000
 	0    -1   -1   0   
 $EndComp
@@ -167,10 +167,10 @@ Wire Wire Line
 Wire Wire Line
 	1050 5000 1050 4750
 Wire Wire Line
-	1900 4750 2250 4750
+	1900 4750 2450 4750
 Connection ~ 1900 4750
 Wire Wire Line
-	1900 5150 2250 5150
+	1900 5150 2450 5150
 Wire Wire Line
 	1900 5050 1900 5150
 $Comp
@@ -178,7 +178,7 @@ L Device:LED D5
 U 1 1 5FCCE5B7
 P 1900 4900
 F 0 "D5" V 1939 4782 50  0000 R CNN
-F 1 "LED" V 1848 4782 50  0000 R CNN
+F 1 "LED_01A" V 1848 4782 50  0000 R CNN
 F 2 "bc:side_led" H 1900 4900 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 1900 4900 50  0001 C CNN
 F 4 "160-1870-1-ND" V 1900 4900 50  0001 C CNN "Digi-Key"
@@ -186,10 +186,10 @@ F 4 "160-1870-1-ND" V 1900 4900 50  0001 C CNN "Digi-Key"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1900 5600 2250 5600
+	1900 5600 2450 5600
 Connection ~ 1900 5600
 Wire Wire Line
-	1900 6000 2250 6000
+	1900 6000 2450 6000
 Wire Wire Line
 	1900 5900 1900 6000
 $Comp
@@ -197,324 +197,324 @@ L Device:LED D6
 U 1 1 5FCC3185
 P 1900 5750
 F 0 "D6" V 1939 5632 50  0000 R CNN
-F 1 "LED" V 1848 5632 50  0000 R CNN
+F 1 "LED_05A" V 1848 5632 50  0000 R CNN
 F 2 "bc:side_led" H 1900 5750 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 1900 5750 50  0001 C CNN
 	1    1900 5750
 	0    -1   -1   0   
 $EndComp
-Connection ~ 3100 6000
-Connection ~ 3100 5150
+Connection ~ 3700 6000
+Connection ~ 3700 5150
 Wire Wire Line
-	2750 4750 3100 4750
-Connection ~ 2750 4750
+	3150 4750 3700 4750
+Connection ~ 3150 4750
 Wire Wire Line
-	2750 5600 3100 5600
-Connection ~ 2750 5600
+	3150 5600 3700 5600
+Connection ~ 3150 5600
 Wire Wire Line
-	2750 5150 3100 5150
+	3150 5150 3700 5150
 Wire Wire Line
-	2750 5050 2750 5150
+	3150 5050 3150 5150
 $Comp
 L Device:LED D11
 U 1 1 5FC9A466
-P 2750 4900
-F 0 "D11" V 2789 4782 50  0000 R CNN
-F 1 "LED" V 2698 4782 50  0000 R CNN
-F 2 "bc:side_led" H 2750 4900 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 2750 4900 50  0001 C CNN
-	1    2750 4900
+P 3150 4900
+F 0 "D11" V 3189 4782 50  0000 R CNN
+F 1 "LED_02A" V 3098 4782 50  0000 R CNN
+F 2 "bc:side_led" H 3150 4900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 3150 4900 50  0001 C CNN
+	1    3150 4900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2750 6000 3100 6000
+	3150 6000 3700 6000
 Wire Wire Line
-	2750 5900 2750 6000
+	3150 5900 3150 6000
 $Comp
 L Device:LED D12
 U 1 1 5FC92F28
-P 2750 5750
-F 0 "D12" V 2789 5632 50  0000 R CNN
-F 1 "LED" V 2698 5632 50  0000 R CNN
-F 2 "bc:side_led" H 2750 5750 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 2750 5750 50  0001 C CNN
-	1    2750 5750
+P 3150 5750
+F 0 "D12" V 3189 5632 50  0000 R CNN
+F 1 "LED_06A" V 3098 5632 50  0000 R CNN
+F 2 "bc:side_led" H 3150 5750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 3150 5750 50  0001 C CNN
+	1    3150 5750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3100 4750 3600 4750
-Connection ~ 3100 4750
-Connection ~ 3600 4750
+	3700 4750 4400 4750
+Connection ~ 3700 4750
+Connection ~ 4400 4750
 Wire Wire Line
-	3100 5600 3600 5600
-Connection ~ 3100 5600
-Connection ~ 3600 5600
-Connection ~ 3950 6000
-Connection ~ 3950 5150
+	3700 5600 4400 5600
+Connection ~ 3700 5600
+Connection ~ 4400 5600
+Connection ~ 4950 6000
+Connection ~ 4950 5150
 Wire Wire Line
-	3600 5600 3950 5600
+	4400 5600 4950 5600
 Wire Wire Line
-	3600 4750 3950 4750
+	4400 4750 4950 4750
 Wire Wire Line
-	3600 5150 3950 5150
+	4400 5150 4950 5150
 Wire Wire Line
-	3600 5050 3600 5150
+	4400 5050 4400 5150
 $Comp
 L Device:LED D16
 U 1 1 5FC6F25C
-P 3600 4900
-F 0 "D16" V 3639 4782 50  0000 R CNN
-F 1 "LED" V 3548 4782 50  0000 R CNN
-F 2 "bc:side_led" H 3600 4900 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 3600 4900 50  0001 C CNN
-	1    3600 4900
+P 4400 4900
+F 0 "D16" V 4439 4782 50  0000 R CNN
+F 1 "LED_03A" V 4348 4782 50  0000 R CNN
+F 2 "bc:side_led" H 4400 4900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 4400 4900 50  0001 C CNN
+	1    4400 4900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3600 6000 3950 6000
+	4400 6000 4950 6000
 $Comp
 L Device:LED D17
 U 1 1 5FC6807D
-P 3600 5750
-F 0 "D17" V 3639 5632 50  0000 R CNN
-F 1 "LED" V 3548 5632 50  0000 R CNN
-F 2 "bc:side_led" H 3600 5750 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 3600 5750 50  0001 C CNN
-	1    3600 5750
+P 4400 5750
+F 0 "D17" V 4439 5632 50  0000 R CNN
+F 1 "LED_07A" V 4348 5632 50  0000 R CNN
+F 2 "bc:side_led" H 4400 5750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 4400 5750 50  0001 C CNN
+	1    4400 5750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3600 5900 3600 6000
-Connection ~ 4800 6000
-Connection ~ 4800 5150
+	4400 5900 4400 6000
+Connection ~ 6300 6000
+Connection ~ 6300 5150
 Wire Wire Line
-	4450 5600 4800 5600
-Connection ~ 4450 5600
+	5750 5600 6300 5600
+Connection ~ 5750 5600
 Wire Wire Line
-	4450 4750 4800 4750
-Connection ~ 4450 4750
+	5750 4750 6300 4750
+Connection ~ 5750 4750
 $Comp
 L Device:LED D23
 U 1 1 5FAC18F2
-P 4800 4900
-F 0 "D23" V 4839 4782 50  0000 R CNN
-F 1 "LED" V 4748 4782 50  0000 R CNN
-F 2 "bc:side_led" H 4800 4900 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 4800 4900 50  0001 C CNN
-	1    4800 4900
+P 6300 4900
+F 0 "D23" V 6339 4782 50  0000 R CNN
+F 1 "LED_04B" V 6248 4782 50  0000 R CNN
+F 2 "bc:side_led" H 6300 4900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 6300 4900 50  0001 C CNN
+	1    6300 4900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3950 4750 4450 4750
+	4950 4750 5750 4750
 Wire Wire Line
-	4800 5050 4800 5150
+	6300 5050 6300 5150
 Wire Wire Line
-	4800 5150 5150 5150
+	6300 5150 6850 5150
 Wire Wire Line
-	4800 5900 4800 6000
+	6300 5900 6300 6000
 $Comp
 L Device:LED D24
 U 1 1 5FAC6502
-P 4800 5750
-F 0 "D24" V 4839 5632 50  0000 R CNN
-F 1 "LED" V 4748 5632 50  0000 R CNN
-F 2 "bc:side_led" H 4800 5750 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 4800 5750 50  0001 C CNN
-	1    4800 5750
+P 6300 5750
+F 0 "D24" V 6339 5632 50  0000 R CNN
+F 1 "LED_08B" V 6248 5632 50  0000 R CNN
+F 2 "bc:side_led" H 6300 5750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 6300 5750 50  0001 C CNN
+	1    6300 5750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5150 5150 5150 6000
+	6850 5150 6850 6000
 Wire Wire Line
-	4800 6000 5150 6000
+	6300 6000 6850 6000
 Wire Wire Line
-	4800 6750 4800 6850
+	5750 6750 5750 6850
 $Comp
 L Device:LED D25
 U 1 1 5FB10A1A
-P 4800 6600
-F 0 "D25" V 4839 6482 50  0000 R CNN
-F 1 "LED" V 4748 6482 50  0000 R CNN
-F 2 "bc:side_led" H 4800 6600 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 4800 6600 50  0001 C CNN
-	1    4800 6600
+P 5750 6600
+F 0 "D25" V 5789 6482 50  0000 R CNN
+F 1 "LED_12" V 5698 6482 50  0000 R CNN
+F 2 "bc:side_led" H 5750 6600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 5750 6600 50  0001 C CNN
+	1    5750 6600
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3950 6450 4800 6450
+	4400 6450 5750 6450
 Wire Wire Line
-	4800 6850 5150 6850
+	5750 6850 6850 6850
 Wire Wire Line
-	5150 6850 5150 6000
-Connection ~ 5150 6000
+	6850 6850 6850 6000
+Connection ~ 6850 6000
 Wire Wire Line
-	5150 7650 4800 7650
-Connection ~ 5150 6850
+	6850 7650 6300 7650
+Connection ~ 6850 6850
 Wire Wire Line
-	5150 6850 5150 7650
-Text Label 4800 7650 0    50   ~ 0
+	6850 6850 6850 7650
+Text Label 6300 7650 0    50   ~ 0
 LED_C3
 $Comp
 L Device:LED D21
 U 1 1 5FC414DF
-P 4450 4900
-F 0 "D21" V 4489 4782 50  0000 R CNN
-F 1 "LED" V 4398 4782 50  0000 R CNN
-F 2 "bc:side_led" H 4450 4900 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 4450 4900 50  0001 C CNN
-	1    4450 4900
+P 5750 4900
+F 0 "D21" V 5789 4782 50  0000 R CNN
+F 1 "LED_04A" V 5698 4782 50  0000 R CNN
+F 2 "bc:side_led" H 5750 4900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 5750 4900 50  0001 C CNN
+	1    5750 4900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4450 5050 4450 5150
+	5750 5050 5750 5150
 Wire Wire Line
-	4450 5150 4800 5150
+	5750 5150 6300 5150
 Wire Wire Line
-	4450 5900 4450 6000
+	5750 5900 5750 6000
 $Comp
 L Device:LED D22
 U 1 1 5FC414E8
-P 4450 5750
-F 0 "D22" V 4489 5632 50  0000 R CNN
-F 1 "LED" V 4398 5632 50  0000 R CNN
-F 2 "bc:side_led" H 4450 5750 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 4450 5750 50  0001 C CNN
-	1    4450 5750
+P 5750 5750
+F 0 "D22" V 5789 5632 50  0000 R CNN
+F 1 "LED_08A" V 5698 5632 50  0000 R CNN
+F 2 "bc:side_led" H 5750 5750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 5750 5750 50  0001 C CNN
+	1    5750 5750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4450 6000 4800 6000
+	5750 6000 6300 6000
 Wire Wire Line
-	3950 5600 4450 5600
-Text Label 3950 7650 0    50   ~ 0
+	4950 5600 5750 5600
+Text Label 4950 7650 0    50   ~ 0
 LED_C2
-Text Label 3100 7650 0    50   ~ 0
+Text Label 3700 7650 0    50   ~ 0
 LED_C1
-Text Label 2250 7650 0    50   ~ 0
+Text Label 2450 7650 0    50   ~ 0
 LED_C0
 Wire Wire Line
-	4300 6850 4300 7650
+	5500 6850 5500 7650
 Wire Wire Line
-	3450 6850 3450 7650
+	4200 6850 4200 7650
 Wire Wire Line
-	2600 7450 2600 7650
-Connection ~ 2600 7450
+	2950 7450 2950 7650
+Connection ~ 2950 7450
 Wire Wire Line
-	2600 6850 2600 7450
-Connection ~ 2250 6450
-Connection ~ 4300 6850
+	2950 6850 2950 7450
+Connection ~ 1900 6450
+Connection ~ 5500 6850
 Wire Wire Line
-	4300 7650 3950 7650
-Connection ~ 3450 6850
+	5500 7650 4950 7650
+Connection ~ 4200 6850
 Wire Wire Line
-	3450 7650 3100 7650
-Connection ~ 2600 6850
+	4200 7650 3700 7650
+Connection ~ 2950 6850
 Wire Wire Line
-	2600 7650 2250 7650
-Connection ~ 3450 6000
+	2950 7650 2450 7650
+Connection ~ 4200 6000
 Wire Wire Line
-	3450 6850 3450 6000
-Connection ~ 4300 6000
+	4200 6850 4200 6000
+Connection ~ 5500 6000
 Wire Wire Line
-	4300 6850 4300 6000
+	5500 6850 5500 6000
 Wire Wire Line
-	3950 6850 4300 6850
+	4400 6850 5500 6850
 Wire Wire Line
-	3100 6850 3450 6850
+	3150 6850 4200 6850
 $Comp
 L Device:LED D20
 U 1 1 5FB10A23
-P 3950 6600
-F 0 "D20" V 3989 6482 50  0000 R CNN
-F 1 "LED" V 3898 6482 50  0000 R CNN
-F 2 "bc:side_led" H 3950 6600 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 3950 6600 50  0001 C CNN
-	1    3950 6600
+P 4400 6600
+F 0 "D20" V 4439 6482 50  0000 R CNN
+F 1 "LED_11" V 4348 6482 50  0000 R CNN
+F 2 "bc:side_led" H 4400 6600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 4400 6600 50  0001 C CNN
+	1    4400 6600
 	0    -1   -1   0   
 $EndComp
-Connection ~ 3950 6450
+Connection ~ 4400 6450
 Wire Wire Line
-	3100 6450 3950 6450
+	3150 6450 4400 6450
 Wire Wire Line
-	3950 6750 3950 6850
-Connection ~ 3100 6450
+	4400 6750 4400 6850
+Connection ~ 3150 6450
 Wire Wire Line
-	3100 6750 3100 6850
+	3150 6750 3150 6850
 Wire Wire Line
-	2250 6450 3100 6450
+	1900 6450 3150 6450
 $Comp
 L Device:LED D15
 U 1 1 5FB10A0F
-P 3100 6600
-F 0 "D15" V 3139 6482 50  0000 R CNN
-F 1 "LED" V 3048 6482 50  0000 R CNN
-F 2 "bc:side_led" H 3100 6600 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 3100 6600 50  0001 C CNN
-	1    3100 6600
+P 3150 6600
+F 0 "D15" V 3189 6482 50  0000 R CNN
+F 1 "LED_10" V 3098 6482 50  0000 R CNN
+F 2 "bc:side_led" H 3150 6600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 3150 6600 50  0001 C CNN
+	1    3150 6600
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3950 6000 4300 6000
+	4950 6000 5500 6000
 Wire Wire Line
-	3100 6000 3450 6000
-Connection ~ 2600 6000
+	3700 6000 4200 6000
+Connection ~ 2950 6000
 Wire Wire Line
-	4300 5150 4300 6000
+	5500 5150 5500 6000
 Wire Wire Line
-	3450 5150 3450 6000
+	4200 5150 4200 6000
 Wire Wire Line
-	2250 6000 2600 6000
+	2450 6000 2950 6000
 Wire Wire Line
-	2600 6850 2600 6000
+	2950 6850 2950 6000
 Wire Wire Line
-	2250 6850 2600 6850
+	1900 6850 2950 6850
 Wire Wire Line
-	2250 6750 2250 6850
+	1900 6750 1900 6850
 Wire Wire Line
-	1350 6450 2250 6450
+	1350 6450 1900 6450
 $Comp
 L Device:LED D9
 U 1 1 5FAE636D
-P 2250 6600
-F 0 "D9" V 2289 6482 50  0000 R CNN
-F 1 "LED" V 2198 6482 50  0000 R CNN
-F 2 "bc:side_led" H 2250 6600 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 2250 6600 50  0001 C CNN
-	1    2250 6600
+P 1900 6600
+F 0 "D9" V 1939 6482 50  0000 R CNN
+F 1 "LED_09" V 1848 6482 50  0000 R CNN
+F 2 "bc:side_led" H 1900 6600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 1900 6600 50  0001 C CNN
+	1    1900 6600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED D19
 U 1 1 5FAC64FC
-P 3950 5750
-F 0 "D19" V 3989 5632 50  0000 R CNN
-F 1 "LED" V 3898 5632 50  0000 R CNN
-F 2 "bc:side_led" H 3950 5750 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 3950 5750 50  0001 C CNN
-	1    3950 5750
+P 4950 5750
+F 0 "D19" V 4989 5632 50  0000 R CNN
+F 1 "LED_07B" V 4898 5632 50  0000 R CNN
+F 2 "bc:side_led" H 4950 5750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 4950 5750 50  0001 C CNN
+	1    4950 5750
 	0    -1   -1   0   
 $EndComp
-Connection ~ 3950 5600
+Connection ~ 4950 5600
 Wire Wire Line
-	3950 5900 3950 6000
+	4950 5900 4950 6000
 Wire Wire Line
-	2600 6000 2600 5150
+	2950 6000 2950 5150
 Wire Wire Line
-	3100 5900 3100 6000
+	3700 5900 3700 6000
 Wire Wire Line
-	2250 5900 2250 6000
-Connection ~ 2250 5600
+	2450 5900 2450 6000
+Connection ~ 2450 5600
 Wire Wire Line
-	2250 5600 2750 5600
+	2450 5600 3150 5600
 $Comp
 L Device:LED D14
 U 1 1 5FAC64F4
-P 3100 5750
-F 0 "D14" V 3139 5632 50  0000 R CNN
-F 1 "LED" V 3048 5632 50  0000 R CNN
-F 2 "bc:side_led" H 3100 5750 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 3100 5750 50  0001 C CNN
-	1    3100 5750
+P 3700 5750
+F 0 "D14" V 3739 5632 50  0000 R CNN
+F 1 "LED_06B" V 3648 5632 50  0000 R CNN
+F 2 "bc:side_led" H 3700 5750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 3700 5750 50  0001 C CNN
+	1    3700 5750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -522,50 +522,50 @@ Wire Wire Line
 $Comp
 L Device:LED D8
 U 1 1 5FAC64DA
-P 2250 5750
-F 0 "D8" V 2289 5632 50  0000 R CNN
-F 1 "LED" V 2198 5632 50  0000 R CNN
-F 2 "bc:side_led" H 2250 5750 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 2250 5750 50  0001 C CNN
-	1    2250 5750
+P 2450 5750
+F 0 "D8" V 2489 5632 50  0000 R CNN
+F 1 "LED_05B" V 2398 5632 50  0000 R CNN
+F 2 "bc:side_led" H 2450 5750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 2450 5750 50  0001 C CNN
+	1    2450 5750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3950 5150 4300 5150
+	4950 5150 5500 5150
 Wire Wire Line
-	3950 5050 3950 5150
+	4950 5050 4950 5150
 Wire Wire Line
-	3100 5150 3450 5150
+	3700 5150 4200 5150
 Wire Wire Line
-	3100 5050 3100 5150
+	3700 5050 3700 5150
 Wire Wire Line
-	2250 5150 2600 5150
+	2450 5150 2950 5150
 Wire Wire Line
-	2250 5050 2250 5150
-Connection ~ 3950 4750
+	2450 5050 2450 5150
+Connection ~ 4950 4750
 $Comp
 L Device:LED D18
 U 1 1 5FAC18EC
-P 3950 4900
-F 0 "D18" V 3989 4782 50  0000 R CNN
-F 1 "LED" V 3898 4782 50  0000 R CNN
-F 2 "bc:side_led" H 3950 4900 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 3950 4900 50  0001 C CNN
-	1    3950 4900
+P 4950 4900
+F 0 "D18" V 4989 4782 50  0000 R CNN
+F 1 "LED_03B" V 4898 4782 50  0000 R CNN
+F 2 "bc:side_led" H 4950 4900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 4950 4900 50  0001 C CNN
+	1    4950 4900
 	0    -1   -1   0   
 $EndComp
-Connection ~ 2250 4750
+Connection ~ 2450 4750
 Wire Wire Line
-	2250 4750 2750 4750
+	2450 4750 3150 4750
 $Comp
 L Device:LED D13
 U 1 1 5FAC18E4
-P 3100 4900
-F 0 "D13" V 3139 4782 50  0000 R CNN
-F 1 "LED" V 3048 4782 50  0000 R CNN
-F 2 "bc:side_led" H 3100 4900 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 3100 4900 50  0001 C CNN
-	1    3100 4900
+P 3700 4900
+F 0 "D13" V 3739 4782 50  0000 R CNN
+F 1 "LED_02B" V 3648 4782 50  0000 R CNN
+F 2 "bc:side_led" H 3700 4900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 3700 4900 50  0001 C CNN
+	1    3700 4900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -573,33 +573,33 @@ Wire Wire Line
 $Comp
 L Device:LED D7
 U 1 1 5FAC18CA
-P 2250 4900
-F 0 "D7" V 2289 4782 50  0000 R CNN
-F 1 "LED" V 2198 4782 50  0000 R CNN
-F 2 "bc:side_led" H 2250 4900 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 2250 4900 50  0001 C CNN
-	1    2250 4900
+P 2450 4900
+F 0 "D7" V 2489 4782 50  0000 R CNN
+F 1 "LED_01B" V 2398 4782 50  0000 R CNN
+F 2 "bc:side_led" H 2450 4900 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 2450 4900 50  0001 C CNN
+	1    2450 4900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2250 7450 2600 7450
+	1900 7450 2950 7450
 Wire Wire Line
-	2250 7350 2250 7450
+	1900 7350 1900 7450
 Wire Wire Line
-	1350 7050 2250 7050
+	1350 7050 1900 7050
 $Comp
 L Device:LED D10
 U 1 1 5F9EBA99
-P 2250 7200
-F 0 "D10" V 2289 7082 50  0000 R CNN
-F 1 "LED" V 2198 7082 50  0000 R CNN
-F 2 "bc:side_led" H 2250 7200 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 2250 7200 50  0001 C CNN
-	1    2250 7200
+P 1900 7200
+F 0 "D10" V 1939 7082 50  0000 R CNN
+F 1 "LED_13" V 1848 7082 50  0000 R CNN
+F 2 "bc:side_led" H 1900 7200 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTW-006DCG-E2_RevH_6-12-19.pdf" H 1900 7200 50  0001 C CNN
+	1    1900 7200
 	0    -1   -1   0   
 $EndComp
-Connection ~ 2250 5150
-Connection ~ 2250 6000
+Connection ~ 2450 5150
+Connection ~ 2450 6000
 Connection ~ 1050 4750
 $Comp
 L Device:Battery_Cell BT1
@@ -886,9 +886,9 @@ U 1 1 5FD54BAA
 P 3900 900
 F 0 "C7" H 4015 946 50  0000 L CNN
 F 1 "100nF" H 4015 855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3938 750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 3900 900 50  0001 C CNN
-F 4 "C14663" H 3900 900 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3938 750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 3900 900 50  0001 C CNN
+F 4 "C1525" H 3900 900 50  0001 C CNN "LCSC"
 	1    3900 900 
 	1    0    0    -1  
 $EndComp
@@ -898,9 +898,9 @@ U 1 1 5FD554BC
 P 4400 900
 F 0 "C9" H 4515 946 50  0000 L CNN
 F 1 "100nF" H 4515 855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4438 750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 4400 900 50  0001 C CNN
-F 4 "C14663" H 4400 900 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4438 750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 4400 900 50  0001 C CNN
+F 4 "C1525" H 4400 900 50  0001 C CNN "LCSC"
 	1    4400 900 
 	1    0    0    -1  
 $EndComp
@@ -910,9 +910,9 @@ U 1 1 5FD55AF6
 P 3900 1700
 F 0 "C8" H 4015 1746 50  0000 L CNN
 F 1 "100nF" H 4015 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3938 1550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 3900 1700 50  0001 C CNN
-F 4 "C14663" H 3900 1700 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3938 1550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 3900 1700 50  0001 C CNN
+F 4 "C1525" H 3900 1700 50  0001 C CNN "LCSC"
 	1    3900 1700
 	1    0    0    -1  
 $EndComp
@@ -922,9 +922,9 @@ U 1 1 5FD5616D
 P 4400 1700
 F 0 "C10" H 4515 1746 50  0000 L CNN
 F 1 "100nF" H 4515 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4438 1550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 4400 1700 50  0001 C CNN
-F 4 "C14663" H 4400 1700 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4438 1550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 4400 1700 50  0001 C CNN
+F 4 "C1525" H 4400 1700 50  0001 C CNN "LCSC"
 	1    4400 1700
 	1    0    0    -1  
 $EndComp
@@ -978,9 +978,9 @@ U 1 1 5FD8985A
 P 6450 1700
 F 0 "C15" H 6565 1746 50  0000 L CNN
 F 1 "100nF" H 6565 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6488 1550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 6450 1700 50  0001 C CNN
-F 4 "C14663" H 6450 1700 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6488 1550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 6450 1700 50  0001 C CNN
+F 4 "C1525" H 6450 1700 50  0001 C CNN "LCSC"
 	1    6450 1700
 	1    0    0    -1  
 $EndComp
@@ -1017,9 +1017,9 @@ U 1 1 5FDD7B34
 P 6450 800
 F 0 "R3" H 6380 754 50  0000 R CNN
 F 1 "10K" H 6380 845 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6380 800 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 6450 800 50  0001 C CNN
-F 4 "C25804" H 6450 800 50  0001 C CNN "LCSC"
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6380 800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 6450 800 50  0001 C CNN
+F 4 "C25744" H 6450 800 50  0001 C CNN "LCSC"
 	1    6450 800 
 	-1   0    0    1   
 $EndComp
@@ -1099,9 +1099,9 @@ U 1 1 5FEF7A35
 P 1500 2100
 F 0 "R1" H 1430 2054 50  0000 R CNN
 F 1 "10K" H 1430 2145 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1430 2100 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 1500 2100 50  0001 C CNN
-F 4 "C25804" H 1500 2100 50  0001 C CNN "LCSC"
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1430 2100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 1500 2100 50  0001 C CNN
+F 4 "C25744" H 1500 2100 50  0001 C CNN "LCSC"
 	1    1500 2100
 	-1   0    0    1   
 $EndComp
@@ -3089,9 +3089,9 @@ U 1 1 602A0CFC
 P 8450 850
 F 0 "C16" V 8198 850 50  0000 C CNN
 F 1 "100nF" V 8289 850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8488 700 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 8450 850 50  0001 C CNN
-F 4 "C14663" H 8450 850 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8488 700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 8450 850 50  0001 C CNN
+F 4 "C1525" H 8450 850 50  0001 C CNN "LCSC"
 	1    8450 850 
 	0    1    1    0   
 $EndComp
@@ -3116,9 +3116,9 @@ U 1 1 602E6718
 P 8450 1250
 F 0 "C17" V 8198 1250 50  0000 C CNN
 F 1 "100nF" V 8289 1250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8488 1100 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 8450 1250 50  0001 C CNN
-F 4 "C14663" H 8450 1250 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8488 1100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 8450 1250 50  0001 C CNN
+F 4 "C1525" H 8450 1250 50  0001 C CNN "LCSC"
 	1    8450 1250
 	0    1    1    0   
 $EndComp
@@ -3143,9 +3143,9 @@ U 1 1 602F0C05
 P 8450 1650
 F 0 "C18" V 8198 1650 50  0000 C CNN
 F 1 "100nF" V 8289 1650 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8488 1500 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 8450 1650 50  0001 C CNN
-F 4 "C14663" H 8450 1650 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8488 1500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 8450 1650 50  0001 C CNN
+F 4 "C1525" H 8450 1650 50  0001 C CNN "LCSC"
 	1    8450 1650
 	0    1    1    0   
 $EndComp
@@ -3170,9 +3170,9 @@ U 1 1 602FB737
 P 8450 2050
 F 0 "C19" V 8198 2050 50  0000 C CNN
 F 1 "100nF" V 8289 2050 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8488 1900 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 8450 2050 50  0001 C CNN
-F 4 "C14663" H 8450 2050 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8488 1900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 8450 2050 50  0001 C CNN
+F 4 "C1525" H 8450 2050 50  0001 C CNN "LCSC"
 	1    8450 2050
 	0    1    1    0   
 $EndComp
@@ -3197,9 +3197,9 @@ U 1 1 60331281
 P 8450 2450
 F 0 "C20" V 8198 2450 50  0000 C CNN
 F 1 "100nF" V 8289 2450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8488 2300 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 8450 2450 50  0001 C CNN
-F 4 "C14663" H 8450 2450 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8488 2300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 8450 2450 50  0001 C CNN
+F 4 "C1525" H 8450 2450 50  0001 C CNN "LCSC"
 	1    8450 2450
 	0    1    1    0   
 $EndComp
@@ -3226,7 +3226,7 @@ U 1 1 604A2F45
 P 10350 1800
 F 0 "C21" H 10650 3000 50  0000 L CNN
 F 1 "Capacitive_Keyboard" H 10300 2900 50  0000 L CNN
-F 2 "" H 10350 1500 50  0001 C CNN
+F 2 "bc:keyboard" H 10350 1500 50  0001 C CNN
 F 3 "" H 10350 1500 50  0001 C CNN
 	1    10350 1800
 	1    0    0    -1  
@@ -3237,9 +3237,9 @@ U 1 1 604A55AD
 P 9900 2700
 F 0 "R16" V 9950 2950 50  0000 C CNN
 F 1 "10K" V 9950 2500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9830 2700 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 9900 2700 50  0001 C CNN
-F 4 "C25804" H 9900 2700 50  0001 C CNN "LCSC"
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9830 2700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9900 2700 50  0001 C CNN
+F 4 "C25744" H 9900 2700 50  0001 C CNN "LCSC"
 	1    9900 2700
 	0    -1   -1   0   
 $EndComp
@@ -3251,9 +3251,9 @@ U 1 1 60501E44
 P 9900 2550
 F 0 "R15" V 9950 2800 50  0000 C CNN
 F 1 "10K" V 9950 2350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9830 2550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 9900 2550 50  0001 C CNN
-F 4 "C25804" H 9900 2550 50  0001 C CNN "LCSC"
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9830 2550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9900 2550 50  0001 C CNN
+F 4 "C25744" H 9900 2550 50  0001 C CNN "LCSC"
 	1    9900 2550
 	0    -1   -1   0   
 $EndComp
@@ -3265,9 +3265,9 @@ U 1 1 6050B735
 P 9900 2400
 F 0 "R14" V 9950 2650 50  0000 C CNN
 F 1 "10K" V 9950 2200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9830 2400 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 9900 2400 50  0001 C CNN
-F 4 "C25804" H 9900 2400 50  0001 C CNN "LCSC"
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9830 2400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9900 2400 50  0001 C CNN
+F 4 "C25744" H 9900 2400 50  0001 C CNN "LCSC"
 	1    9900 2400
 	0    -1   -1   0   
 $EndComp
@@ -3279,9 +3279,9 @@ U 1 1 605151B2
 P 9900 2250
 F 0 "R13" V 9950 2500 50  0000 C CNN
 F 1 "10K" V 9950 2050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9830 2250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 9900 2250 50  0001 C CNN
-F 4 "C25804" H 9900 2250 50  0001 C CNN "LCSC"
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9830 2250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9900 2250 50  0001 C CNN
+F 4 "C25744" H 9900 2250 50  0001 C CNN "LCSC"
 	1    9900 2250
 	0    -1   -1   0   
 $EndComp
@@ -3293,9 +3293,9 @@ U 1 1 6051EDC1
 P 9900 2100
 F 0 "R12" V 9950 2350 50  0000 C CNN
 F 1 "10K" V 9950 1900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9830 2100 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 9900 2100 50  0001 C CNN
-F 4 "C25804" H 9900 2100 50  0001 C CNN "LCSC"
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9830 2100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9900 2100 50  0001 C CNN
+F 4 "C25744" H 9900 2100 50  0001 C CNN "LCSC"
 	1    9900 2100
 	0    -1   -1   0   
 $EndComp
@@ -3307,9 +3307,9 @@ U 1 1 60528B68
 P 9900 1950
 F 0 "R11" V 9950 2200 50  0000 C CNN
 F 1 "10K" V 9950 1750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9830 1950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 9900 1950 50  0001 C CNN
-F 4 "C25804" H 9900 1950 50  0001 C CNN "LCSC"
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9830 1950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9900 1950 50  0001 C CNN
+F 4 "C25744" H 9900 1950 50  0001 C CNN "LCSC"
 	1    9900 1950
 	0    -1   -1   0   
 $EndComp
@@ -3321,9 +3321,9 @@ U 1 1 60532AAD
 P 9900 1800
 F 0 "R10" V 9950 2050 50  0000 C CNN
 F 1 "10K" V 9950 1600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9830 1800 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 9900 1800 50  0001 C CNN
-F 4 "C25804" H 9900 1800 50  0001 C CNN "LCSC"
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9830 1800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9900 1800 50  0001 C CNN
+F 4 "C25744" H 9900 1800 50  0001 C CNN "LCSC"
 	1    9900 1800
 	0    -1   -1   0   
 $EndComp
@@ -3335,9 +3335,9 @@ U 1 1 6054072B
 P 9900 1650
 F 0 "R9" V 9950 1900 50  0000 C CNN
 F 1 "10K" V 9950 1450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9830 1650 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 9900 1650 50  0001 C CNN
-F 4 "C25804" H 9900 1650 50  0001 C CNN "LCSC"
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9830 1650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9900 1650 50  0001 C CNN
+F 4 "C25744" H 9900 1650 50  0001 C CNN "LCSC"
 	1    9900 1650
 	0    -1   -1   0   
 $EndComp
@@ -3349,9 +3349,9 @@ U 1 1 60540732
 P 9900 1500
 F 0 "R8" V 9950 1750 50  0000 C CNN
 F 1 "10K" V 9950 1300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9830 1500 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 9900 1500 50  0001 C CNN
-F 4 "C25804" H 9900 1500 50  0001 C CNN "LCSC"
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9830 1500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9900 1500 50  0001 C CNN
+F 4 "C25744" H 9900 1500 50  0001 C CNN "LCSC"
 	1    9900 1500
 	0    -1   -1   0   
 $EndComp
@@ -3363,9 +3363,9 @@ U 1 1 60540739
 P 9900 1350
 F 0 "R7" V 9950 1600 50  0000 C CNN
 F 1 "10K" V 9950 1150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9830 1350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 9900 1350 50  0001 C CNN
-F 4 "C25804" H 9900 1350 50  0001 C CNN "LCSC"
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9830 1350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9900 1350 50  0001 C CNN
+F 4 "C25744" H 9900 1350 50  0001 C CNN "LCSC"
 	1    9900 1350
 	0    -1   -1   0   
 $EndComp
@@ -3377,9 +3377,9 @@ U 1 1 60540740
 P 9900 1200
 F 0 "R6" V 9950 1450 50  0000 C CNN
 F 1 "10K" V 9950 1000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9830 1200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 9900 1200 50  0001 C CNN
-F 4 "C25804" H 9900 1200 50  0001 C CNN "LCSC"
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9830 1200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9900 1200 50  0001 C CNN
+F 4 "C25744" H 9900 1200 50  0001 C CNN "LCSC"
 	1    9900 1200
 	0    -1   -1   0   
 $EndComp
@@ -3391,9 +3391,9 @@ U 1 1 60540747
 P 9900 1050
 F 0 "R5" V 9950 1300 50  0000 C CNN
 F 1 "10K" V 9950 850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9830 1050 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 9900 1050 50  0001 C CNN
-F 4 "C25804" H 9900 1050 50  0001 C CNN "LCSC"
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9830 1050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9900 1050 50  0001 C CNN
+F 4 "C25744" H 9900 1050 50  0001 C CNN "LCSC"
 	1    9900 1050
 	0    -1   -1   0   
 $EndComp
@@ -3405,9 +3405,9 @@ U 1 1 6054074E
 P 9900 900
 F 0 "R4" V 9950 1150 50  0000 C CNN
 F 1 "10K" V 9950 700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9830 900 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 9900 900 50  0001 C CNN
-F 4 "C25804" H 9900 900 50  0001 C CNN "LCSC"
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9830 900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 9900 900 50  0001 C CNN
+F 4 "C25744" H 9900 900 50  0001 C CNN "LCSC"
 	1    9900 900 
 	0    -1   -1   0   
 $EndComp
@@ -3591,9 +3591,9 @@ U 1 1 60102B8D
 P 6350 3500
 F 0 "R2" V 6600 3500 50  0000 C CNN
 F 1 "10K" V 6500 3500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6280 3500 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 6350 3500 50  0001 C CNN
-F 4 "C25804" H 6350 3500 50  0001 C CNN "LCSC"
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6280 3500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 6350 3500 50  0001 C CNN
+F 4 "C25744" H 6350 3500 50  0001 C CNN "LCSC"
 	1    6350 3500
 	0    -1   -1   0   
 $EndComp
@@ -3607,9 +3607,9 @@ U 1 1 601E1C28
 P 4950 900
 F 0 "C11" H 5065 946 50  0000 L CNN
 F 1 "470nF" H 5065 855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4988 750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10B474KA8NNNC_C1623.pdf" H 4950 900 50  0001 C CNN
-F 4 "C1623" H 4950 900 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4988 750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A474KP5NNNC_C47339.pdf" H 4950 900 50  0001 C CNN
+F 4 "C47339" H 4950 900 50  0001 C CNN "LCSC"
 	1    4950 900 
 	1    0    0    -1  
 $EndComp
@@ -3619,9 +3619,9 @@ U 1 1 601E1C2E
 P 5450 900
 F 0 "C13" H 5565 946 50  0000 L CNN
 F 1 "470nF" H 5565 855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5488 750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10B474KA8NNNC_C1623.pdf" H 5450 900 50  0001 C CNN
-F 4 "C1623" H 5450 900 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5488 750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A474KP5NNNC_C47339.pdf" H 5450 900 50  0001 C CNN
+F 4 "C47339" H 5450 900 50  0001 C CNN "LCSC"
 	1    5450 900 
 	1    0    0    -1  
 $EndComp
@@ -3631,9 +3631,9 @@ U 1 1 601E1C34
 P 4950 1700
 F 0 "C12" H 5065 1746 50  0000 L CNN
 F 1 "470nF" H 5065 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4988 1550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10B474KA8NNNC_C1623.pdf" H 4950 1700 50  0001 C CNN
-F 4 "C1623" H 4950 1700 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4988 1550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A474KP5NNNC_C47339.pdf" H 4950 1700 50  0001 C CNN
+F 4 "C47339" H 4950 1700 50  0001 C CNN "LCSC"
 	1    4950 1700
 	1    0    0    -1  
 $EndComp
@@ -3643,9 +3643,9 @@ U 1 1 601E1C3A
 P 5450 1700
 F 0 "C14" H 5565 1746 50  0000 L CNN
 F 1 "470nF" H 5565 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5488 1550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10B474KA8NNNC_C1623.pdf" H 5450 1700 50  0001 C CNN
-F 4 "C1623" H 5450 1700 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5488 1550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A474KP5NNNC_C47339.pdf" H 5450 1700 50  0001 C CNN
+F 4 "C47339" H 5450 1700 50  0001 C CNN "LCSC"
 	1    5450 1700
 	1    0    0    -1  
 $EndComp
@@ -3740,68 +3740,63 @@ $EndComp
 $Comp
 L Connector:TestPoint TP1
 U 1 1 60229C8E
-P 6150 2600
-F 0 "TP1" H 6208 2718 50  0000 L CNN
-F 1 "Catch" H 6208 2627 50  0000 L CNN
-F 2 "bc:test_point" H 6350 2600 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5019_C238131.pdf" H 6350 2600 50  0001 C CNN
-F 4 "C238131" H 6150 2600 50  0001 C CNN "LCSC"
-	1    6150 2600
+P 5050 2450
+F 0 "TP1" H 5108 2568 50  0000 L CNN
+F 1 "Catch" H 5108 2477 50  0000 L CNN
+F 2 "bc:test_point" H 5250 2450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5019_C238131.pdf" H 5250 2450 50  0001 C CNN
+F 4 "C238131" H 5050 2450 50  0001 C CNN "LCSC"
+	1    5050 2450
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6150 2600
 $Comp
 L Connector:TestPoint TP3
 U 1 1 6023B25D
-P 6500 2750
-F 0 "TP3" H 6558 2868 50  0000 L CNN
-F 1 "Catch" H 6558 2777 50  0000 L CNN
-F 2 "bc:test_point" H 6700 2750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5019_C238131.pdf" H 6700 2750 50  0001 C CNN
-F 4 "C238131" H 6500 2750 50  0001 C CNN "LCSC"
-	1    6500 2750
+P 5400 2700
+F 0 "TP3" H 5458 2818 50  0000 L CNN
+F 1 "Catch" H 5458 2727 50  0000 L CNN
+F 2 "bc:test_point" H 5600 2700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5019_C238131.pdf" H 5600 2700 50  0001 C CNN
+F 4 "C238131" H 5400 2700 50  0001 C CNN "LCSC"
+	1    5400 2700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6500 2750
 $Comp
 L Connector:TestPoint TP4
 U 1 1 60248E23
-P 6850 2600
-F 0 "TP4" H 6908 2718 50  0000 L CNN
-F 1 "Catch" H 6908 2627 50  0000 L CNN
-F 2 "bc:test_point" H 7050 2600 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5019_C238131.pdf" H 7050 2600 50  0001 C CNN
-F 4 "C238131" H 6850 2600 50  0001 C CNN "LCSC"
-	1    6850 2600
+P 5750 2450
+F 0 "TP4" H 5808 2568 50  0000 L CNN
+F 1 "Catch" H 5808 2477 50  0000 L CNN
+F 2 "bc:test_point" H 5950 2450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5019_C238131.pdf" H 5950 2450 50  0001 C CNN
+F 4 "C238131" H 5750 2450 50  0001 C CNN "LCSC"
+	1    5750 2450
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6850 2600
 $Comp
 L Connector:TestPoint TP2
 U 1 1 60256A01
-P 6150 2900
-F 0 "TP2" H 6208 3018 50  0000 L CNN
-F 1 "Catch" H 6208 2927 50  0000 L CNN
-F 2 "bc:test_point" H 6350 2900 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5019_C238131.pdf" H 6350 2900 50  0001 C CNN
-F 4 "C238131" H 6150 2900 50  0001 C CNN "LCSC"
-	1    6150 2900
+P 2450 4750
+F 0 "TP2" H 2500 4950 50  0000 L CNN
+F 1 "Catch" H 2500 4850 50  0000 L CNN
+F 2 "bc:test_point" H 2650 4750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5019_C238131.pdf" H 2650 4750 50  0001 C CNN
+F 4 "C238131" H 2450 4750 50  0001 C CNN "LCSC"
+	1    2450 4750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6150 2900
 $Comp
 L Connector:TestPoint TP5
 U 1 1 602646C7
-P 6850 2900
-F 0 "TP5" H 6908 3018 50  0000 L CNN
-F 1 "Catch" H 6908 2927 50  0000 L CNN
-F 2 "bc:test_point" H 7050 2900 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5019_C238131.pdf" H 7050 2900 50  0001 C CNN
-F 4 "C238131" H 6850 2900 50  0001 C CNN "LCSC"
-	1    6850 2900
-	1    0    0    -1  
+P 6300 6000
+F 0 "TP5" H 6400 6200 50  0000 L CNN
+F 1 "Catch" H 6400 6100 50  0000 L CNN
+F 2 "bc:test_point" H 6500 6000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5019_C238131.pdf" H 6500 6000 50  0001 C CNN
+F 4 "C238131" H 6300 6000 50  0001 C CNN "LCSC"
+	1    6300 6000
+	-1   0    0    1   
 $EndComp
-NoConn ~ 6850 2900
 $Comp
 L Device:D_Schottky D26
 U 1 1 5FE957FC
@@ -3828,4 +3823,62 @@ F 3 "" H 1500 3100 50  0001 C CNN
 	1    1500 3100
 	1    0    0    -1  
 $EndComp
+Text Notes 7825 4625 0    50   ~ 0
+LED_XX_XXX
+Text Notes 7825 4725 0    50   ~ 0
+LED_XX_XXX
+Text Notes 9425 3800 1    50   ~ 0
+LED_XX_XXX
+Text Notes 9325 3800 1    50   ~ 0
+LED_XX_XXX
+Text Notes 9875 6125 1    50   ~ 0
+LED_XX_XXX
+Text Notes 9950 6125 1    50   ~ 0
+LED_XX_XXX
+Text Notes 11050 5300 2    50   ~ 0
+LED_XX_XXX
+Text Notes 11050 5200 2    50   ~ 0
+LED_XX_XXX
+Text Notes 11050 5100 2    50   ~ 0
+LED_XX_XXX
+Text Notes 11050 5000 2    50   ~ 0
+LED_XX_XXX
+Text Notes 11050 4900 2    50   ~ 0
+LED_XX_XXX
+Text Notes 10100 3325 3    50   ~ 0
+LED_XX_XXX
+$Comp
+L power:GND #PWR0103
+U 1 1 5FEAFEB7
+P 5750 2450
+F 0 "#PWR0103" H 5750 2200 50  0001 C CNN
+F 1 "GND" H 5755 2277 50  0000 C CNN
+F 2 "" H 5750 2450 50  0001 C CNN
+F 3 "" H 5750 2450 50  0001 C CNN
+	1    5750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5FECFE06
+P 5050 2450
+F 0 "#PWR0104" H 5050 2200 50  0001 C CNN
+F 1 "GND" H 5055 2277 50  0000 C CNN
+F 2 "" H 5050 2450 50  0001 C CNN
+F 3 "" H 5050 2450 50  0001 C CNN
+	1    5050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5FED08FD
+P 5400 2700
+F 0 "#PWR0106" H 5400 2450 50  0001 C CNN
+F 1 "GND" H 5405 2527 50  0000 C CNN
+F 2 "" H 5400 2700 50  0001 C CNN
+F 3 "" H 5400 2700 50  0001 C CNN
+	1    5400 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 6300 5600
 $EndSCHEMATC
