@@ -607,7 +607,7 @@ U 1 1 5FD3E012
 P 4850 3700
 F 0 "BT1" H 4968 3796 50  0000 L CNN
 F 1 "CR2032" H 4968 3705 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_3002_1x2032" V 4850 3760 50  0001 C CNN
+F 2 "bc:BatteryHolder_Keystone_3002_1x2032" V 4850 3760 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Keystone-3002TR_C238099.pdf" V 4850 3760 50  0001 C CNN
 F 4 "C238099" H 4850 3700 50  0001 C CNN "LCSC"
 	1    4850 3700
@@ -3774,28 +3774,16 @@ F 4 "C238131" H 5750 2450 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP2
-U 1 1 60256A01
-P 2450 4750
-F 0 "TP2" H 2500 4950 50  0000 L CNN
-F 1 "Catch" H 2500 4850 50  0000 L CNN
-F 2 "bc:test_point" H 2650 4750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5019_C238131.pdf" H 2650 4750 50  0001 C CNN
-F 4 "C238131" H 2450 4750 50  0001 C CNN "LCSC"
-	1    2450 4750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:TestPoint TP5
 U 1 1 602646C7
-P 6300 6000
-F 0 "TP5" H 6400 6200 50  0000 L CNN
-F 1 "Catch" H 6400 6100 50  0000 L CNN
-F 2 "bc:test_point" H 6500 6000 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5019_C238131.pdf" H 6500 6000 50  0001 C CNN
-F 4 "C238131" H 6300 6000 50  0001 C CNN "LCSC"
-	1    6300 6000
-	-1   0    0    1   
+P 6300 5600
+F 0 "TP5" H 6400 5800 50  0000 L CNN
+F 1 "Catch" H 6400 5700 50  0000 L CNN
+F 2 "bc:test_point" H 6500 5600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5019_C238131.pdf" H 6500 5600 50  0001 C CNN
+F 4 "C238131" H 6300 5600 50  0001 C CNN "LCSC"
+	1    6300 5600
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Schottky D26
@@ -3878,6 +3866,18 @@ F 1 "GND" H 5405 2527 50  0000 C CNN
 F 2 "" H 5400 2700 50  0001 C CNN
 F 3 "" H 5400 2700 50  0001 C CNN
 	1    5400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 60256A01
+P 2450 4750
+F 0 "TP2" H 2500 4950 50  0000 L CNN
+F 1 "Catch" H 2500 4850 50  0000 L CNN
+F 2 "bc:test_point" H 2650 4750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810151521_Keystone-5019_C238131.pdf" H 2650 4750 50  0001 C CNN
+F 4 "C238131" H 2450 4750 50  0001 C CNN "LCSC"
+	1    2450 4750
 	1    0    0    -1  
 $EndComp
 Connection ~ 6300 5600
