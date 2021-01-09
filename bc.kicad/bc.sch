@@ -840,30 +840,28 @@ Wire Wire Line
 $Comp
 L Device:Speaker_Crystal LS1
 U 1 1 5FCC75DB
-P 750 2800
-F 0 "LS1" H 716 3117 50  0000 C CNN
-F 1 "Transducer" H 716 3026 50  0000 C CNN
-F 2 "bc:transducer" H 715 2750 50  0001 C CNN
-F 3 "https://www.puiaudio.com/media/SpecSheet/SMT-0940-T-3V-R.pdf" H 715 2750 50  0001 C CNN
-F 4 "668-1538-1-ND" H 750 2800 50  0001 C CNN "Digi-Key"
-	1    750  2800
+P 1050 2800
+F 0 "LS1" H 1016 3117 50  0000 C CNN
+F 1 "Transducer" H 1016 3026 50  0000 C CNN
+F 2 "bc:transducer" H 1015 2750 50  0001 C CNN
+F 3 "https://www.puiaudio.com/media/SpecSheet/SMT-0940-T-3V-R.pdf" H 1015 2750 50  0001 C CNN
+F 4 "668-1538-1-ND" H 1050 2800 50  0001 C CNN "Digi-Key"
+	1    1050 2800
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 5FCCA8BC
-P 950 3100
-F 0 "#PWR02" H 950 2850 50  0001 C CNN
-F 1 "GND" H 955 2927 50  0000 C CNN
-F 2 "" H 950 3100 50  0001 C CNN
-F 3 "" H 950 3100 50  0001 C CNN
-	1    950  3100
+P 1250 3100
+F 0 "#PWR02" H 1250 2850 50  0001 C CNN
+F 1 "GND" H 1255 2927 50  0000 C CNN
+F 2 "" H 1250 3100 50  0001 C CNN
+F 3 "" H 1250 3100 50  0001 C CNN
+	1    1250 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	950  3100 950  2900
-Wire Wire Line
-	950  2800 1500 2800
+	1250 3100 1250 2900
 Text Label 1800 2800 0    50   ~ 0
 TRANSDUCER
 Text Label 4200 3600 2    50   ~ 0
@@ -3785,32 +3783,6 @@ F 4 "C238131" H 6300 5600 50  0001 C CNN "LCSC"
 	1    6300 5600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D_Schottky D26
-U 1 1 5FE957FC
-P 1500 2950
-F 0 "D26" V 1546 2870 50  0000 R CNN
-F 1 "D_Schottky" V 1455 2870 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" H 1500 2950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-B5819W_C8598.pdf" H 1500 2950 50  0001 C CNN
-F 4 " C8598" H 1500 2950 50  0001 C CNN "LCSC"
-	1    1500 2950
-	0    1    1    0   
-$EndComp
-Connection ~ 1500 2800
-Wire Wire Line
-	1500 2800 2400 2800
-$Comp
-L power:GND #PWR0101
-U 1 1 5FF0614C
-P 1500 3100
-F 0 "#PWR0101" H 1500 2850 50  0001 C CNN
-F 1 "GND" H 1505 2927 50  0000 C CNN
-F 2 "" H 1500 3100 50  0001 C CNN
-F 3 "" H 1500 3100 50  0001 C CNN
-	1    1500 3100
-	1    0    0    -1  
-$EndComp
 Text Notes 7825 4625 0    50   ~ 0
 LED_XX_XXX
 Text Notes 7825 4725 0    50   ~ 0
@@ -3881,4 +3853,6 @@ F 4 "C238131" H 2450 4750 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 Connection ~ 6300 5600
+Wire Wire Line
+	1250 2800 2400 2800
 $EndSCHEMATC
